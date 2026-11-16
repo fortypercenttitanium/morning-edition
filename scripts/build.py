@@ -86,8 +86,19 @@ def safe(value: object) -> str:
 
 
 def valid_url(url: str) -> bool:
-    parsed = urlparse(url)
-    return parsed.scheme == 'https' and bool(parsed.netloc) and not (parsed.username or parsed.password)
+    """Accept plausible direct HTTPS article links, never placeholders or homepages."""
+    if not isinstance(url, str) or not url or any(char.isspace() for char in url):
+        return False
+    try:
+        parsed = urlparse(url)
+        hostname = (parsed.hostname or '').lower()
+    except ValueError:
+        return False
+    if parsed.scheme != 'https' or '.' not in hostname or parsed.username or parsed.password:
+        return False
+    if hostname in {'example.com', 'example.org', 'example.net'} or hostname.endswith('.example'):
+        return False
+    return bool(parsed.path.strip('/')) or bool(parsed.query)
 
 
 def url_link(url: str, label: str) -> str:
@@ -237,6 +248,79 @@ def all_stories(issue: dict) -> list[dict]:
     return [issue['lead']] + [s for section in issue['sections'] for s in section['stories']]
 
 
+def prepare_for_publication(issue: dict, history: list[dict]) -> dict:
+    """Discard individual bad citations/duplicates before final strict validation.
+
+    Never publish a story without an acceptable direct source URL. When only
+    isolated stories fail, keep the rest without an additional paid API request.
+    """
+    if issue.get('date') != DATE:
+        raise ValueError(f'Expected local publication date {DATE}; got {issue.get("date")!r}')
+
+    candidates = [('lead', -1, issue['lead'])]
+    for section_index, section in enumerate(issue['sections']):
+        candidates.extend(('section', section_index, story) for story in section['stories'])
+
+    accepted = []
+    for origin, section_index, story in candidates:
+        title = str(story.get('title', '(untitled)')).replace('\n', ' ')[:150]
+        reason = None
+        if not valid_url(story.get('url', '')):
+            reason = 'missing or invalid HTTPS article URL'
+        elif not isinstance(story.get('paragraphs'), list) or not any(
+            isinstance(p, str) and p.strip() for p in story['paragraphs']
+        ):
+            reason = 'missing article text'
+        elif too_similar(story, history):
+            reason = 'already covered without a substantive update'
+        elif too_similar({**story, 'update_note': '', 'new_development': ''},
+                         [item[2] for item in accepted]):
+            reason = 'duplicate within this edition'
+
+        if reason:
+            print(f'::warning::Skipped story ({reason}): {title}', flush=True)
+        else:
+            accepted.append((origin, section_index, story))
+
+    if len(accepted) < 10:
+        raise ValueError(
+            f'Only {len(accepted)} publishable stories remain after citation/duplicate checks; '
+            'keeping the existing edition instead.'
+        )
+
+    # If the lead was unpublishable, promote the first remaining story.
+    new_lead = accepted[0][2]
+    if new_lead is not issue['lead']:
+        print(f'::warning::Original lead was rejected; promoted: {new_lead["title"]}', flush=True)
+
+    accepted_ids = {id(item[2]) for item in accepted}
+    new_sections = []
+    for section in issue['sections']:
+        remaining = [s for s in section['stories'] if id(s) in accepted_ids and s is not new_lead]
+        if remaining:
+            new_sections.append({**section, 'stories': remaining})
+
+    # Apply the same checks to optional reading-room links.
+    reads = []
+    seen_read_titles = set()
+    prior_titles = {normalize_title(item.get('title', '')) for item in history}
+    story_titles = {normalize_title(item[2].get('title', '')) for item in accepted}
+    for read in issue.get('long_reads', []):
+        title = normalize_title(read.get('title', ''))
+        if not valid_url(read.get('url', '')):
+            print(f'::warning::Skipped reading-room link (invalid URL): {read.get("title", "")}', flush=True)
+        elif title in prior_titles or title in story_titles or title in seen_read_titles:
+            print(f'::warning::Skipped repeated reading-room item: {read.get("title", "")}', flush=True)
+        else:
+            reads.append(read)
+            seen_read_titles.add(title)
+
+    discarded = len(candidates) - len(accepted)
+    if discarded:
+        print(f'Quality check kept {len(accepted)} stories and skipped {discarded}; no new API call required.', flush=True)
+    return {**issue, 'lead': new_lead, 'sections': new_sections, 'long_reads': reads}
+
+
 def validate(issue: dict, history: list[dict]):
     if issue.get('date') != DATE:
         raise ValueError(f'Expected local publication date {DATE}; got {issue.get("date")!r}')
@@ -253,7 +337,7 @@ def validate(issue: dict, history: list[dict]):
             raise ValueError(f'Invalid source URL in: {story.get("title")}')
         if too_similar(story, history):
             raise ValueError(f'Repeated old story without meaningful update: {story.get("title")}')
-        if too_similar(story, seen):
+        if too_similar({**story, 'update_note': '', 'new_development': ''}, seen):
             raise ValueError(f'Repeated story within the same issue: {story.get("title")}')
         seen.append(story)
     for read in issue.get('long_reads', []):
@@ -283,7 +367,7 @@ RESEARCH REQUIREMENTS:
 - Select roughly 18–24 DIFFERENT news stories across about five sections, plus 2–3 optional longer reads. Aim for several paragraphs in each major story and compact briefs for the rest.
 - A story already in the previous issue is NOT fresh just because another publisher wrote it. Include only if a consequential development occurred since last appearance; mark update_note='UPDATE', write new_development explicitly and lead with that NEW fact. Otherwise never repeat.
 - Be mindful of the reader's local teams, not just national sports generalities. Include scores only when actually verified.
-- Provide source URL, source name and published date when confirmed.
+- Provide source URL, source name and published date when confirmed. Never use a placeholder, homepage, bare domain, citation token, Markdown link, or fabricated URL. If there is no verified direct HTTPS article URL, omit the story entirely.
 - Do not use markdown formatting inside JSON text fields. Make accurate, original summaries, not copied paragraphs.
 - Output a VALID JSON object matching the requested schema; date must be {DATE}.
 '''
@@ -334,6 +418,7 @@ def main():
         sys.exit('OPENAI_API_KEY is missing. Set it as a GitHub Actions repository secret; no files were changed.')
     history = load_history()
     issue = generate(history)
+    issue = prepare_for_publication(issue, history)
     validate(issue, history)
     publish(issue, history)
 

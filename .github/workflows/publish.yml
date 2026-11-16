@@ -12,6 +12,7 @@ on:
     paths:
       - 'site/**'
       - 'scripts/**'
+      - 'tests/**'
       - 'config/**'
       - 'requirements.txt'
       - '.github/workflows/publish.yml'
@@ -41,6 +42,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      - name: Test publication checks (no API calls)
+        run: python -m unittest discover -s tests -v
 
       - name: Install generator dependencies
         if: github.event_name != 'push'
