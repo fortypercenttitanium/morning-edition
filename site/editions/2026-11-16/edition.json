@@ -1,0 +1,402 @@
+{
+  "date": "2026-11-16",
+  "lead": {
+    "key": "trump-asia-trip-after-midterms-2026-11-15",
+    "category": "National Politics",
+    "title": "Trump heads to Asia after midterm losses, seeking momentum abroad",
+    "deck": "The president leaves for Asia this week as Washington absorbs the political meaning of the 2026 midterms and allies look for signals on trade, security and U.S. commitments.",
+    "paragraphs": [
+      "President Donald Trump is heading to Asia this week after Republicans took significant losses in the midterm elections, a setback that has weakened his position at home and sharpened attention on whether he can use foreign policy to reset the narrative. The trip is expected to put U.S. relationships with regional allies and rivals back at center stage at a moment when Congress, investors and foreign governments are reassessing how much political room the administration has left for major initiatives.",
+      "For readers in South Jersey and the Philadelphia area, the trip matters less as diplomatic theater than as a practical test of U.S. economic and security policy. Decisions on tariffs, export controls, military posture and alliance management can ripple into port traffic, manufacturing, financial markets and local employers tied to global supply chains. Even when presidents travel for symbolic reasons, the policies discussed overseas can land directly in household budgets and business plans back home."
+    ],
+    "why": "Foreign policy often looks distant until it affects prices, markets, shipping, defense spending or jobs. A weakened White House can still make consequential moves abroad, but partners and adversaries may calculate differently after an election setback.",
+    "source": "Associated Press",
+    "url": "https://apnews.com/article/30ac0f6937301f36904808f278b79b1e",
+    "published": "2026-11-15",
+    "update_note": "",
+    "new_development": ""
+  },
+  "sections": [
+    {
+      "name": "Local & Region",
+      "stories": [
+        {
+          "key": "faa-ground-stop-phl-2026-11-13",
+          "category": "Transportation",
+          "title": "After rare nationwide ground stop, Philadelphia travelers face spillover delays",
+          "deck": "The FAA lifted Friday's nationwide halt, but airlines warned disruptions could continue into the weekend.",
+          "paragraphs": [
+            "A rare FAA nationwide ground stop on Friday affected Philadelphia International Airport along with airports across the country after a communications problem disrupted the air traffic system. Flights already in the air continued, but departures were halted nationwide for a period, and airlines warned travelers to expect lingering cancellations and schedule problems even after the stop was lifted.",
+            "The immediate crisis had passed by the weekend, but the episode renewed scrutiny of the country's aging aviation infrastructure. For local travelers heading into the busy pre-Thanksgiving stretch, the practical advice is simple: verify itineraries directly with airlines, expect knock-on delays, and build in extra time for connections and airport pickups."
+          ],
+          "why": "PHL is a major regional hub. Even a short national systems failure can disrupt work travel, family trips and cargo schedules well after operations resume.",
+          "source": "WHYY / 6abc; Associated Press",
+          "url": "https://whyy.org/articles/airports-nationwide-ground-stop-philadelphia-international/",
+          "published": "2026-11-13",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "tacony-palmyra-bridge-ship-strike-2026-11-12",
+          "category": "Infrastructure",
+          "title": "Tacony-Palmyra Bridge disruption hits cross-river traffic",
+          "deck": "A cargo ship strike left the bridge unable to close, complicating travel between Philadelphia and South Jersey.",
+          "paragraphs": [
+            "A cargo ship struck the Tacony-Palmyra Bridge on Thursday, leaving the span unable to close and causing significant disruptions for traffic moving between Philadelphia and New Jersey. Officials said the malfunction meant immediate transportation headaches on a crossing that many commuters and commercial drivers use as an alternative to the Betsy Ross and Burlington-Bristol bridges.",
+            "For Burlington County readers, the story is a reminder that even brief failures at a single Delaware River crossing can snarl a much wider commuting map. Drivers should continue checking for bridge authority updates and detour conditions before rush-hour trips."
+          ],
+          "why": "Bridge reliability is a daily quality-of-life issue in South Jersey, affecting commutes, school pickups, deliveries and emergency routing.",
+          "source": "WHYY",
+          "url": "https://whyy.org/articles/tacony-palmyra-bridge-closed-cargo-ship-strike/",
+          "published": "2026-11-12",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "philadelphia-foster-system-investigations-2026-11-12",
+          "category": "Government",
+          "title": "Investigations intensify after death of 10-year-old in Philadelphia foster care",
+          "deck": "City Council and District Attorney Larry Krasner are examining how a child in city custody died and what failed beforehand.",
+          "paragraphs": [
+            "Philadelphia officials have opened multiple investigations into the city's foster care system after the death of 10-year-old Malayshia Allford, who died while in the custody of her foster mother. The case has triggered outrage at City Hall and renewed questions about the Department of Human Services, oversight practices and whether warning signs were missed before the child's death.",
+            "This remains a developing accountability story, and many facts still need formal confirmation through investigations rather than rhetoric. But the public-policy stakes are already clear: if the city cannot reliably protect children in its care, any promised reforms in budgets, contracting and supervision will face much tougher scrutiny."
+          ],
+          "why": "This is a high-stakes local governance story about child safety, agency oversight and whether the city can credibly prevent a repeat failure.",
+          "source": "WHYY",
+          "url": "https://whyy.org/articles/philadelphia-department-human-services-investigation-malayshia-allford/",
+          "published": "2026-11-12",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "philadelphia-school-closures-union-plan-2026-11-11",
+          "category": "Education",
+          "title": "Teachers union pitches plan to keep 17 Philadelphia schools open",
+          "deck": "The Philadelphia Federation of Teachers says closures are not the only answer to enrollment decline and facility problems.",
+          "paragraphs": [
+            "The Philadelphia teachers union has released an alternative plan aimed at keeping 17 schools from closing, arguing that the district should address maintenance and investment needs rather than rely primarily on closures. The district told WHYY that the proposal speaks to immediate building concerns but does not solve broader problems including declining enrollment, underused schools and inequities across the system.",
+            "For families in the region, the debate is familiar and consequential: school systems must balance educational access, building condition, neighborhood identity and long-term finances. The hard part is that all of those goals can conflict at once."
+          ],
+          "why": "School closure plans affect children, neighborhoods, staffing and property values, and they often set off lasting political fights.",
+          "source": "WHYY",
+          "url": "https://whyy.org/articles/philadelphia-teachers-union-plan-save-closing-schools/",
+          "published": "2026-11-11",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "philadelphia-affordable-housing-spending-2026-11-11",
+          "category": "Housing",
+          "title": "Council scrutiny grows over Philadelphia affordable housing spending",
+          "deck": "A controller's report found only a fraction of approved H.O.M.E. funding had been spent by late September.",
+          "paragraphs": [
+            "Philadelphia City Council is taking a closer look at the city's affordable housing strategy after a City Controller's Office report found that, as of Sept. 30, the Parker administration had spent $38 million of the $278 million Council approved for the first 16 months of the H.O.M.E. initiative. The hearing comes amid pressure from renters and neighborhood advocates who say the pace of need is outstripping the pace of government deployment.",
+            "Officials can argue over whether the bottleneck is bureaucracy, project timelines or caution around complex financing. But for households facing rent pressure now, slow spending reads as slow relief."
+          ],
+          "why": "Housing policy shapes displacement, homelessness risk and neighborhood stability across Philadelphia and its suburbs.",
+          "source": "WHYY",
+          "url": "https://whyy.org/articles/philadelphia-affordable-housing-renters-cobbs-creek/",
+          "published": "2026-11-11",
+          "update_note": "",
+          "new_development": ""
+        }
+      ]
+    },
+    {
+      "name": "Nation & World",
+      "stories": [
+        {
+          "key": "us-flights-ground-stop-explainer-2026-11-15",
+          "category": "National",
+          "title": "What to know after the nationwide flight stoppage",
+          "deck": "Federal officials say flights are moving again, but the outage revived a bigger debate over the resilience of U.S. air traffic control.",
+          "paragraphs": [
+            "The FAA's nationwide ground stop has ended, but federal officials spent Sunday defending the response and pressing for major upgrades to air traffic control systems. Transportation Secretary Sean Duffy said the episode underscored the need for billions in infrastructure investment after a communications failure briefly halted departures across the country.",
+            "The larger story is not just one bad day for aviation. It is whether the United States can modernize a critical public-safety system before a future failure lasts longer or causes broader economic damage."
+          ],
+          "why": "Air travel disruptions hit business, tourism and freight immediately, and infrastructure weaknesses have national economic consequences.",
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/8a7ea4fe27804b52bf79eaaec1308180",
+          "published": "2026-11-15",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "mideast-israel-hamas-jordan-2026-11-15",
+          "category": "World",
+          "title": "Middle East tensions remain high after reported strike on Hamas commander",
+          "deck": "Regional developments on Sunday included a reported Israeli killing of a top Hamas commander and fresh security fallout elsewhere.",
+          "paragraphs": [
+            "The Middle East remained volatile Sunday as Associated Press reported that Israel killed a top Hamas commander while other regional developments, including Jordan's sentencing in a church attack case and Iranian claims about a strike on a radar system at an American helicopter base in Bahrain, added to a sense of widening instability.",
+            "Readers should treat some battlefield and state-media claims with caution until they are independently verified. But even provisional reports matter because they can affect U.S. military posture, energy markets and diplomatic risk almost immediately."
+          ],
+          "why": "Conflict in the region can influence oil prices, U.S. deployments and global market sentiment within hours.",
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/3b4adde832dadd333451fd2f7a51908c",
+          "published": "2026-11-15",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "ukraine-black-sea-starshield-2026-11-15",
+          "category": "World",
+          "title": "Ukraine warns satellite restrictions could hinder winter energy defense",
+          "deck": "President Volodymyr Zelenskyy said limits tied to Starshield threaten defenses as new Black Sea strikes raise spillover fears.",
+          "paragraphs": [
+            "Ukrainian President Volodymyr Zelenskyy said restrictions involving Starshield threaten Ukraine's ability to defend its energy system ahead of winter, according to AP, as reports of new drone strikes on commercial vessels in the Black Sea heightened concern about the war's regional spillover. The timing is especially sensitive because attacks on power and logistics become more damaging as temperatures fall.",
+            "For American readers, the story is a reminder that modern wars now hinge not just on artillery and territory but also on private-sector technology, maritime insurance and infrastructure resilience."
+          ],
+          "why": "The war's consequences run through energy markets, food shipping, defense policy and the growing role of commercial tech in national security.",
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/b139307f0d3ed0f7d0b222c08c30a4a1",
+          "published": "2026-11-15",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "trump-golf-course-court-order-2026-11-15",
+          "category": "Politics",
+          "title": "Judge pauses Trump-backed Washington golf redevelopment for two weeks",
+          "deck": "A federal order temporarily halted work at East Potomac while litigation continues.",
+          "paragraphs": [
+            "A federal judge has temporarily blocked work connected to President Trump's push to redevelop the East Potomac public golf course in Washington, ordering a two-week delay while legal challenges proceed. Trump criticized the ruling and said the administration would appeal.",
+            "On its face, the fight is about a golf course. In practice, it is another example of how courts, local land-use disputes and executive priorities are colliding across the Trump presidency."
+          ],
+          "why": "The case is a smaller-scale but revealing test of how far presidential power can reach into public land use and redevelopment.",
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/d56a2ca061ac54ba6367411bb972c29c",
+          "published": "2026-11-15",
+          "update_note": "",
+          "new_development": ""
+        }
+      ]
+    },
+    {
+      "name": "Business, Technology & Science",
+      "stories": [
+        {
+          "key": "microsoft-global-outage-restored-2026-11-14",
+          "category": "Technology",
+          "title": "Microsoft says services are restored after global outage",
+          "deck": "The disruption renewed questions about concentration risk in cloud infrastructure.",
+          "paragraphs": [
+            "Microsoft said its services were fully restored after an hourslong global outage that disrupted communications and digital operations in multiple regions. AP reported that the incident became another example of how failures at one major provider can cascade across businesses and institutions that now depend on a small number of platforms.",
+            "The useful lesson here is not simply that outages happen. It is that resilience, backups and vendor diversification are no longer just IT talking points; they are operational necessities for hospitals, schools, governments and small businesses alike."
+          ],
+          "why": "Local institutions increasingly rely on the same cloud backbones as global corporations, so distant outages can quickly become neighborhood problems.",
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/ca395c0f1e51af784b6d70afb6554f6a",
+          "published": "2026-11-14",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "nasa-escapade-earth-flyby-2026-11",
+          "category": "Space",
+          "title": "NASA's twin ESCAPADE spacecraft complete Earth flybys en route to Mars",
+          "deck": "The mission used a loitering trajectory and Earth gravity assist to continue its trip toward studying Mars' magnetosphere.",
+          "paragraphs": [
+            "NASA said its twin ESCAPADE spacecraft have completed powered Earth flybys and are now on the way to Mars. The mission launched in November 2025, spent time in an Earth-proximity loiter orbit and then used Earth's gravity to help redirect the spacecraft outward, an approach that also gave scientists opportunities to collect observations in Earth's magnetotail along the way.",
+            "This is the sort of mission that can sound remote until you remember what it represents: cheaper, more flexible deep-space operations and better understanding of how solar wind interacts with planetary atmospheres and magnetic environments."
+          ],
+          "why": "Space missions often double as technology demonstrations, shaping how future robotic and human exploration is planned and funded.",
+          "source": "NASA Science",
+          "url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/",
+          "published": "2026-11-09",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "nasa-moon-base-awards-2026-11",
+          "category": "Science & Industry",
+          "title": "NASA awards new moon-base transportation and technology work",
+          "deck": "The agency expanded commercial lunar services tied to cargo, terrain vehicles and base-support systems.",
+          "paragraphs": [
+            "NASA announced awards for moon-base transportation, technology and science projects, expanding work with commercial partners including Blue Origin, Impulse Space and Arrow Science and Technology. The awards build on earlier 2026 lunar terrain vehicle work and fit into the agency's broader push toward a more commercial model for sustained lunar operations.",
+            "For the public, lunar contracting stories can blur together. What matters is the pattern: NASA is trying to move from one-off moonshots toward an industrial ecosystem that spreads risk and capability across multiple companies."
+          ],
+          "why": "Federal space contracts help shape the U.S. aerospace sector, regional employment and the long-term economics of exploration.",
+          "source": "NASA",
+          "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/?linkId=1034414042",
+          "published": "2026-11-10",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "openai-policy-window-2026-09-09",
+          "category": "AI Policy",
+          "title": "In Washington and the states, the AI fight is shifting from hype to rules",
+          "deck": "OpenAI argued in September that the policy window is open, reflecting a broader push to turn AI debates into concrete legislation.",
+          "paragraphs": [
+            "OpenAI said in a September policy essay that the 'policy window is open' for AI governance, pointing to youth-safety measures, product safeguards and support for specific legislative approaches. While the essay is not a neutral account, it usefully signals where at least one major lab sees the next phase of AI politics: less abstract debate, more negotiation over compliance, safety defaults and market structure.",
+            "That trend matters locally because AI regulation will not stay in Washington. Schools, employers, software buyers and state governments are increasingly the places where real rules and practical standards get tested."
+          ],
+          "why": "AI policy is becoming a bread-and-butter governance issue affecting education, labor, procurement and consumer protection.",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/ai-policy-window/",
+          "published": "2026-09-09",
+          "update_note": "",
+          "new_development": ""
+        }
+      ]
+    },
+    {
+      "name": "Sports",
+      "stories": [
+        {
+          "key": "philadelphia-marathon-weekend-2026-guide",
+          "category": "Local Sports",
+          "title": "Philadelphia Marathon weekend will bring crowds, closures and a civic jolt",
+          "deck": "Road closures begin Friday for one of the city's biggest annual participation-sports events.",
+          "paragraphs": [
+            "Philadelphia Marathon weekend is approaching, with organizers and city agencies preparing for road closures, spectator controls and heavy activity centered on the Benjamin Franklin Parkway and other major routes. The event is one of the region's most visible mass-participation sports weekends, bringing runners, visitors and traffic changes that can affect far more people than the field itself.",
+            "For suburban readers heading into the city next weekend, the best strategy is to plan around closures rather than fight them. The marathon is less a single race than a citywide logistics event."
+          ],
+          "why": "Large race weekends affect traffic, SEPTA usage, restaurant business and neighborhood access across Philadelphia.",
+          "source": "The Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/news/philadelphia/philadelphia-marathon-weekend-race-route-road-closures-parking-septa-20261112.html",
+          "published": "2026-11-12",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "cuba-marabana-marathon-2026-11-15",
+          "category": "World Sports",
+          "title": "Cuba's marathon doubles as a political stage",
+          "deck": "Thousands ran Havana's Marabana as some participants also protested U.S. sanctions.",
+          "paragraphs": [
+            "Thousands of runners took part Sunday in Cuba's Marabana marathon, an event that mixed endurance sport with political messaging as some participants protested U.S. sanctions. The AP dispatch was a reminder that road races, like soccer matches and Olympics ceremonies, often become vessels for national narratives well beyond sport.",
+            "It is not a local result, but it is a good example of how athletics can serve as both civic celebration and political theater."
+          ],
+          "why": "Sports are often one of the clearest windows into how governments present themselves to domestic and foreign audiences.",
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/79987ab0128128768e0d06a1d033bab2",
+          "published": "2026-11-15",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "phillies-2026-postseason-fallout",
+          "category": "Baseball",
+          "title": "The Phillies are out, and the postseason bracket points to a changed National League picture",
+          "deck": "Public postseason bracket pages show Philadelphia reached October but did not win the pennant, while Milwaukee emerged as champion.",
+          "paragraphs": [
+            "With the MLB season over, publicly visible postseason bracket material on ESPN shows the Phillies reached the 2026 playoffs but did not come out of the National League, while Milwaukee finished as World Series champion. Without a fresh game recap source surfaced in search, the safer conclusion is broad rather than granular: Philadelphia remained a postseason club, but the winter conversation now shifts to how close this roster really is to another pennant run.",
+            "That is unsatisfying if you want box scores, but better than pretending to verify details that were not reliably available in the reporting surfaced here."
+          ],
+          "why": "For this region, Phillies expectations now extend beyond making October; the standard is whether the club can still convert contention into a title window.",
+          "source": "ESPN",
+          "url": "https://fantasy.espn.com/games/mlb-postseason-challenge-2026/entry",
+          "published": "",
+          "update_note": "",
+          "new_development": ""
+        }
+      ]
+    },
+    {
+      "name": "Culture, Weather & Curiosities",
+      "stories": [
+        {
+          "key": "philly-weekend-storms-hail-tornadoes-2026-11-13",
+          "category": "Weather",
+          "title": "After tornadoes and hail, the region turns calmer but stays watchful",
+          "deck": "Powerful storms last week brought confirmed tornadoes, heavy hail and tree damage across the Philadelphia area.",
+          "paragraphs": [
+            "The Philadelphia region is cleaning up after severe storms last week spawned two confirmed tornadoes in the area and left behind hail, fallen trees and damaged buildings. In Delaware County, hail piled up deeply enough to resemble snow in places, a vivid sign of how quickly late-fall weather can turn destructive.",
+            "The good news for Monday is calmer weather. Forecasts call for mostly sunny conditions around Philadelphia with a high near 55 degrees, after a chilly stretch that felt more like early December."
+          ],
+          "why": "Weather is not just backdrop; it affects commutes, utility reliability, school routines and emergency preparedness.",
+          "source": "6abc; weather tool",
+          "url": "https://6abc.com/live-updates/funnel-clouds-hail-fallen-trees-severe-storms-strike-philadelphia-region/20036438/entry/20036712/",
+          "published": "2026-11-13",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "philly-weather-cool-then-warmer-2026-11-11",
+          "category": "Weather",
+          "title": "A brisk Monday gives way to a milder stretch",
+          "deck": "Monday should be mostly sunny near 55 in Philadelphia before temperatures edge up again Tuesday.",
+          "paragraphs": [
+            "After last week's cold rain, wind and even stray snowflake talk, the immediate outlook is much friendlier. Forecast data for Monday shows mostly sunny conditions in Philadelphia with a high around 55 and a low near 37, followed by a sunnier Tuesday near 58.",
+            "That may sound ordinary, but after an unusually warm start to November and a sharp midmonth cool-down, the pattern is a reminder that late fall can swing quickly between jacket weather and shirtsleeve afternoons."
+          ],
+          "why": "Weather shapes commuting, school sports, utility use and the mood of the week more than many larger headlines do.",
+          "source": "Weather tool; The Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/weather/philadelphia-weather-forecast-snow-rain-records-20261111.html",
+          "published": "2026-11-11",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "nasa-november-skywatching-2026",
+          "category": "Curiosity",
+          "title": "Look up: November still has good skywatching despite the early sunset",
+          "deck": "NASA's monthly guide points stargazers toward seasonal pairings and late-autumn observing opportunities.",
+          "paragraphs": [
+            "NASA's November skywatching guide says the month still offers rewarding observing, including planetary pairings that appear close together from Earth's perspective even when they remain vastly separated in space. For South Jersey readers with darker skies than the city core, a clear cold evening can be one of the easiest ways to turn a routine weeknight into something memorable.",
+            "This is one of those quiet stories a newspaper should still make room for. Not everything worth knowing is urgent."
+          ],
+          "why": "A local paper should occasionally point readers toward wonder, not just conflict and bureaucracy.",
+          "source": "NASA Science",
+          "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
+          "published": "2026-11-02",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "philly-things-to-do-midnovember-2026",
+          "category": "Culture",
+          "title": "Around the region: Dog Show, food festivals and a 'Rocky' anniversary weekend",
+          "deck": "Mid-November's calendar is full of broad-interest events rather than niche fan-service.",
+          "paragraphs": [
+            "This weekend's regional event lineup includes the National Dog Show, multiple food and drink festivals, and programming tied to the 50th anniversary of Rocky, according to WHYY's events roundup. It is the sort of calendar that works well for a mixed household: some spectacle, some nostalgia and a few excuses to get out before the holiday rush fully takes over.",
+            "Good local culture coverage is not about listing everything. It is about identifying the events most likely to shape the shared mood of a place."
+          ],
+          "why": "Community life is part of what makes a newspaper feel rooted rather than abstract.",
+          "source": "WHYY",
+          "url": "https://whyy.org/articles/things-to-do-november-2026-weekend-2/",
+          "published": "2026-11-12",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "philadelphia-delaware-river-body-2026-11-15",
+          "category": "Public Safety",
+          "title": "Police recover man's body from the Delaware River in South Philadelphia",
+          "deck": "Authorities said a 35-year-old man was found dead Sunday afternoon; the investigation is ongoing.",
+          "paragraphs": [
+            "Philadelphia police said a 35-year-old man was found dead in the Delaware River on Sunday afternoon after a 911 call reported a person in the water near South Front Street. The department's marine unit recovered the man, who was pronounced dead at the scene.",
+            "There is little verified information beyond the recovery and the active investigation. In a morning edition, that is enough: note the event, avoid speculation, and wait for authorities to establish the rest."
+          ],
+          "why": "Even brief public-safety items matter locally, but restraint matters too when facts are limited.",
+          "source": "The Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/news/philadelphia/body-recovered-delaware-river-philadelphia-20261115.html",
+          "published": "2026-11-15",
+          "update_note": "",
+          "new_development": ""
+        }
+      ]
+    }
+  ],
+  "long_reads": [
+    {
+      "title": "How a rare national ground stop exposed the fragility of U.S. aviation systems",
+      "description": "A practical explainer on what failed, how the FAA responded and why infrastructure modernization is back in the spotlight.",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/8a7ea4fe27804b52bf79eaaec1308180"
+    },
+    {
+      "title": "Philadelphia Marathon weekend guide",
+      "description": "Useful if you're heading into the city next weekend: routes, closures, timing and spectator logistics.",
+      "source": "The Philadelphia Inquirer",
+      "url": "https://www.inquirer.com/news/philadelphia/philadelphia-marathon-weekend-race-route-road-closures-parking-septa-20261112.html"
+    },
+    {
+      "title": "NASA's ESCAPADE mission and the road to Mars",
+      "description": "A readable science update on a mission that used Earth flybys to continue toward studying Mars' magnetic environment.",
+      "source": "NASA Science",
+      "url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/"
+    }
+  ]
+}
