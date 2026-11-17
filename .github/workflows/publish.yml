@@ -1,11 +1,6 @@
 name: Publish Morning Edition
 
 on:
-  schedule:
-    # Allow time for research, rendering and Pages deployment before 8:30 AM.
-    # Scheduled workflows may be delayed by GitHub and delivery is not guaranteed exact.
-    - cron: '35 7 * * *'
-      timezone: America/New_York
   workflow_dispatch:
   push:
     branches: [main]
