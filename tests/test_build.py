@@ -111,3 +111,90 @@ class PublicationTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+
+class CopyDeskTests(unittest.TestCase):
+    def test_three_differently_titled_summit_stories_merge_with_citations(self):
+        raw = issue()
+        originals = build.all_stories(raw)
+        originals[1].update(title='Trump and Xi discuss a trade framework', source='Reuters',
+                            url='https://reuters.com/world/us-china-trade-summit')
+        originals[2].update(title='Beijing seeks concessions ahead of leaders meeting', source='AP',
+                            url='https://apnews.com/article/summit-diplomacy')
+        originals[3].update(title='Technology curbs complicate US China talks', source='BBC',
+                            url='https://bbc.com/news/articles/china-chip-talks')
+        keys = [s['key'] for s in originals]
+        edited = {
+            'lead': {'source_keys': [keys[0]], 'title': originals[0]['title'],
+                     'deck': '', 'paragraphs': ['Reported facts.']},
+            'sections': [{
+                'name': 'World',
+                'stories': [
+                    {'source_keys': keys[1:4], 'title': 'Trump and Xi hold wide-ranging trade talks',
+                     'deck': 'Several disputes remain.', 'paragraphs': [
+                         'The leaders met to discuss tariffs and technology.',
+                         'Negotiators also addressed export restrictions and trade terms.'
+                     ]},
+                    *[{'source_keys': [k], 'title': originals[i]['title'],
+                       'deck': '', 'paragraphs': ['Reported facts.']} for i, k in enumerate(keys) if i >= 4],
+                ],
+            }],
+            'long_read_indices': [],
+        }
+        result = build.apply_copy_edit(raw, edited)
+        self.assertEqual(len(build.all_stories(result)), 10)
+        merged = result['sections'][0]['stories'][0]
+        self.assertEqual(merged['merged_keys'], keys[1:4])
+        self.assertEqual(len(merged['additional_sources']), 2)
+        html = build.source(merged)
+        self.assertIn('Reuters', html)
+        self.assertIn('AP', html)
+        self.assertIn('BBC', html)
+        build.validate(result, [])
+
+    def test_copy_editor_cannot_invent_or_reuse_original_articles(self):
+        raw = issue()
+        base = {'source_keys': ['does-not-exist'], 'title': 'Invented headline',
+                'deck': '', 'paragraphs': ['Body']}
+        with self.assertRaisesRegex(ValueError, 'invented or reused'):
+            build.apply_copy_edit(raw, {'lead': base, 'sections': [], 'long_read_indices': []})
+        first = {**base, 'source_keys': [raw['lead']['key']]}
+        with self.assertRaisesRegex(ValueError, 'invented or reused'):
+            build.apply_copy_edit(raw, {'lead': first, 'sections': [
+                {'name': 'Repeated', 'stories': [first]}], 'long_read_indices': []})
+
+    def test_same_source_article_with_different_headlines_is_filtered(self):
+        raw = issue()
+        raw['sections'][0]['stories'][3]['url'] = raw['lead']['url']
+        cleaned = build.prepare_for_publication(raw, [])
+        self.assertEqual(len(build.all_stories(cleaned)), 11)
+        build.validate(cleaned, [])
+
+    def test_long_read_cannot_repeat_a_news_article_via_same_url(self):
+        raw = issue()
+        raw['long_reads'] = [{
+            'title': 'A longer look at city transit funding',
+            'description': 'Read more', 'source': 'Example',
+            'url': raw['lead']['url'],
+        }]
+        cleaned = build.prepare_for_publication(raw, [])
+        self.assertEqual(cleaned['long_reads'], [])
+        build.validate(cleaned, [])
+
+    def test_self_justifying_why_does_not_render(self):
+        raw = issue()
+        raw['lead']['why'] = 'This is an interesting reminder and deserves your attention.'
+        html = build.render(raw, archive=[build.DATE])
+        self.assertNotIn('This is an interesting reminder', html)
+        self.assertNotIn('Why it matters:', html)
+
+    def test_copy_editor_keeps_only_existing_long_reads(self):
+        raw = issue()
+        raw['long_reads'] = [{'title': 'A source feature', 'description': 'A long read',
+                              'source': 'Source', 'url': 'https://news.example.test/features/123'}]
+        first = {'source_keys': [raw['lead']['key']], 'title': raw['lead']['title'],
+                 'deck': '', 'paragraphs': ['Article text.']}
+        with self.assertRaisesRegex(ValueError, 'invalid or reused long-read'):
+            build.apply_copy_edit(raw, {'lead': first, 'sections': [],
+                                        'long_read_indices': [0, 0]})

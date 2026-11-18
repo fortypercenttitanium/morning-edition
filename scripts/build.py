@@ -36,14 +36,13 @@ STORY_SCHEMA = {
         'title': {'type': 'string'},
         'deck': {'type': 'string'},
         'paragraphs': {'type': 'array', 'items': {'type': 'string'}},
-        'why': {'type': 'string'},
         'source': {'type': 'string'},
         'url': {'type': 'string'},
         'published': {'type': 'string', 'description': 'Source article publication date YYYY-MM-DD when verified; otherwise empty string'},
         'update_note': {'type': 'string', 'description': 'UPDATE only if substantial new fact since last issue; otherwise empty string'},
         'new_development': {'type': 'string', 'description': 'Explain the specific new development since prior report for UPDATE; otherwise empty string'},
     },
-    'required': ['key', 'category', 'title', 'deck', 'paragraphs', 'why', 'source', 'url', 'published', 'update_note', 'new_development'],
+    'required': ['key', 'category', 'title', 'deck', 'paragraphs', 'source', 'url', 'published', 'update_note', 'new_development'],
     'additionalProperties': False,
 }
 LONG_READ_SCHEMA = {
@@ -81,6 +80,41 @@ SCHEMA = {
 }
 
 
+
+# A second, lower-cost copy-editor pass rewrites the issue from the already
+# researched material. It cannot introduce new URLs or source articles:
+# source_keys are resolved against the original issue in Python.
+EDIT_STORY_SCHEMA = {
+    'type': 'object',
+    'properties': {
+        'source_keys': {'type': 'array', 'items': {'type': 'string'}},
+        'title': {'type': 'string'},
+        'deck': {'type': 'string'},
+        'paragraphs': {'type': 'array', 'items': {'type': 'string'}},
+    },
+    'required': ['source_keys', 'title', 'deck', 'paragraphs'],
+    'additionalProperties': False,
+}
+EDIT_SCHEMA = {
+    'type': 'object',
+    'properties': {
+        'lead': EDIT_STORY_SCHEMA,
+        'sections': {'type': 'array', 'items': {
+            'type': 'object',
+            'properties': {
+                'name': {'type': 'string'},
+                'stories': {'type': 'array', 'items': EDIT_STORY_SCHEMA},
+            },
+            'required': ['name', 'stories'],
+            'additionalProperties': False,
+        }},
+        'long_read_indices': {'type': 'array', 'items': {'type': 'integer'}},
+    },
+    'required': ['lead', 'sections', 'long_read_indices'],
+    'additionalProperties': False,
+}
+
+
 def safe(value: object) -> str:
     return escape(str(value or ''), quote=True)
 
@@ -99,6 +133,18 @@ def valid_url(url: str) -> bool:
     if hostname in {'example.com', 'example.org', 'example.net'} or hostname.endswith('.example'):
         return False
     return bool(parsed.path.strip('/')) or bool(parsed.query)
+
+
+
+def canonical_source_url(url: str) -> str:
+    """Normalize URLs enough to identify the same linked article twice."""
+    if not valid_url(url):
+        return ''
+    parsed = urlparse(url)
+    path = parsed.path.rstrip('/') or '/'
+    # Article paths identify a story; ignore campaign/tracking query strings.
+    query = parsed.query if path == '/' else ''
+    return f'{parsed.netloc.lower()}{path}?{query}'
 
 
 def url_link(url: str, label: str) -> str:
@@ -125,9 +171,10 @@ def too_similar(story: dict, previous: list[dict]) -> bool:
     key = compact_key(story['key'])
     title = normalize_title(story['title'])
     for prior in previous:
-        prior_key = compact_key(prior.get('key', ''))
+        prior_keys = {compact_key(prior.get('key', ''))}
+        prior_keys.update(compact_key(k) for k in prior.get('merged_keys', []))
         prior_title = normalize_title(prior.get('title', ''))
-        same_event = key == prior_key or (title and prior_title and SequenceMatcher(None, title, prior_title).ratio() >= .78)
+        same_event = key in prior_keys or (title and prior_title and SequenceMatcher(None, title, prior_title).ratio() >= .78)
         if same_event and not meaningful_update(story):
             return True
     return False
@@ -141,10 +188,19 @@ def load_history() -> list[dict]:
 
 
 def source(story: dict) -> str:
-    source_name = safe(story.get('source', 'Source'))
-    published = safe(story.get('published', ''))
-    link = url_link(story.get('url', ''), 'Read original reporting')
-    return f'<div class="source">{source_name}{f" · {published}" if published else ""} · {link}</div>'
+    links = []
+    urls_seen = set()
+    for item in [story] + story.get('additional_sources', []):
+        url = item.get('url', '')
+        canonical = canonical_source_url(url)
+        if not canonical or canonical in urls_seen:
+            continue
+        urls_seen.add(canonical)
+        name = str(item.get('source') or 'Original reporting')
+        date = str(item.get('published') or '')
+        label = name + (f' · {date}' if date else '')
+        links.append(url_link(url, label))
+    return '<div class="source">Sources: ' + ' · '.join(links) + '</div>'
 
 
 def story_body(story: dict, is_lead: bool = False) -> str:
@@ -152,8 +208,6 @@ def story_body(story: dict, is_lead: bool = False) -> str:
     for paragraph in story.get('paragraphs', []):
         if paragraph.strip():
             html.append(f'<p>{safe(paragraph)}</p>')
-    if story.get('why', '').strip():
-        html.append(f'<div class="why"><strong>Why it matters:</strong> {safe(story["why"])}</div>')
     return '<div class="article-body">' + ''.join(html) + '</div>' + source(story)
 
 
@@ -248,6 +302,149 @@ def all_stories(issue: dict) -> list[dict]:
     return [issue['lead']] + [s for section in issue['sections'] for s in section['stories']]
 
 
+def apply_copy_edit(issue: dict, edited: dict) -> dict:
+    """Rebuild a consolidated issue from a copy editor's source-key references.
+
+    Source URLs and dates are always inherited from the researched draft, never
+    from the copy editor's output. Each original article can be used only once.
+    """
+    originals = {}
+    for story in all_stories(issue):
+        key = story['key']
+        if key in originals:
+            raise ValueError(f'Original issue reused story key {key!r}')
+        originals[key] = story
+
+    used = set()
+
+    def rebuild(draft: dict) -> dict:
+        keys = draft.get('source_keys', [])
+        if not isinstance(keys, list) or not keys or len(set(keys)) != len(keys):
+            raise ValueError('Copy editor returned invalid source_keys')
+        if any(key not in originals or key in used for key in keys):
+            raise ValueError('Copy editor invented or reused an original story key')
+        paragraphs = draft.get('paragraphs', [])
+        if not isinstance(paragraphs, list) or not any(
+            isinstance(p, str) and p.strip() for p in paragraphs
+        ):
+            raise ValueError('Copy editor returned an empty article')
+        if not isinstance(draft.get('title'), str) or not draft['title'].strip():
+            raise ValueError('Copy editor returned a missing headline')
+        used.update(keys)
+
+        originals_for_story = [originals[key] for key in keys]
+        # An invalid first source should not invalidate a merged article that
+        # contains other usable source citations.
+        primary = next(
+            (s for s in originals_for_story if valid_url(s.get('url', ''))),
+            originals_for_story[0],
+        )
+        additional = []
+        seen_urls = {canonical_source_url(primary.get('url', ''))}
+        for item in originals_for_story:
+            url = item.get('url', '')
+            canonical = canonical_source_url(url)
+            if canonical and canonical not in seen_urls:
+                additional.append({
+                    'source': item.get('source', 'Original reporting'),
+                    'url': url,
+                    'published': item.get('published', ''),
+                })
+                seen_urls.add(canonical)
+
+        return {
+            **primary,
+            'title': draft['title'].strip(),
+            'deck': str(draft.get('deck') or '').strip(),
+            'paragraphs': [p.strip() for p in paragraphs if isinstance(p, str) and p.strip()],
+            'merged_keys': keys,
+            'additional_sources': additional,
+        }
+
+    lead = rebuild(edited['lead'])
+    sections = []
+    for section in edited['sections']:
+        stories = [rebuild(story) for story in section['stories']]
+        if stories:
+            sections.append({'name': section['name'], 'stories': stories})
+
+    reads = []
+    used_reads = set()
+    for index in edited['long_read_indices']:
+        if not isinstance(index, int) or index < 0 or index >= len(issue['long_reads']) or index in used_reads:
+            raise ValueError('Copy editor returned an invalid or reused long-read index')
+        reads.append(issue['long_reads'][index])
+        used_reads.add(index)
+
+    print(
+        f'Copy desk combined {len(originals)} article drafts into '
+        f'{1 + sum(len(s["stories"]) for s in sections)} distinct stories.',
+        flush=True,
+    )
+    return {**issue, 'lead': lead, 'sections': sections, 'long_reads': reads}
+
+
+def copy_edit(issue: dict) -> dict:
+    """Use a cheaper model, without web search, to merge overlapping coverage.
+
+    A separate pass catches topic duplicates that unrelated headlines, different
+    outlet URLs and model-generated story IDs cannot detect reliably.
+    """
+    from openai import OpenAI
+
+    candidates = [
+        {
+            'key': s['key'], 'category': s.get('category', ''),
+            'title': s['title'], 'deck': s.get('deck', ''),
+            'paragraphs': s.get('paragraphs', []), 'source': s.get('source', ''),
+            'url': s.get('url', ''),
+        }
+        for s in all_stories(issue)
+    ]
+    payload = {
+        'articles': candidates,
+        'reading_room': [
+            {'index': i, 'title': r['title'], 'description': r.get('description', ''), 'url': r.get('url', '')}
+            for i, r in enumerate(issue.get('long_reads', []))
+        ],
+    }
+    prompt = (
+        'Edit this already-researched newspaper. The article drafts come from verified source searches; '
+        'do NOT add facts, quotes, dates, events, URLs, or sources. Output only the supplied schema.\n'
+        'CRITICAL: One story per underlying news event, summit, announcement or development, '
+        'REGARDLESS of how many publishers, headlines, categories, angles or source URLs cover it. '
+        'For instance, five stories about a Trump-Xi meeting, its trade negotiations and related '
+        'diplomacy should normally become ONE substantive, well-written article, not five briefs. '
+        'Combine nonredundant facts into a coherent article with several short paragraphs, and '
+        'list every contributing original article key in source_keys. Grouped stories will automatically '
+        'retain multiple source links. A truly independent event may remain separate.\n'
+        'Copy-edit ALL articles for a neutral, informative newspaper voice. NEVER explain why the '
+        'story was selected for this newspaper, why readers should care, or whether it is inspiring '
+        'or interesting. Remove formulaic lines like "Why it matters", "a reminder that", '
+        '"it is a fitting story", "for South Jersey readers", "the kind of story worth reading", '
+        'or self-referential observations about journalism. Give the relevant facts and context '
+        'directly without pleading for interest or talking to the reader. Keep straightforward '
+        'implications only when supported by the researched text. Avoid vague speculative conclusions.\n'
+        'Use each original key at most once; use only keys present in the supplied input, and '
+        'retain distinct important stories. Keep one lead and sensible sections. The exact story '
+        'count is NOT a quota, and fewer good articles beat repeated coverage. Return reading_room '
+        'indices only for features that do not restate subjects covered by an included article. '
+        'Do not add new reading-room entries.\n\n'
+        + json.dumps(payload, ensure_ascii=False)
+    )
+    response = OpenAI().responses.create(
+        model=os.environ.get('OPENAI_COPY_EDITOR_MODEL', 'gpt-5.4-mini'),
+        input=[
+            {'role': 'system', 'content': 'You are a rigorous newspaper copy editor. Merge coverage of the same underlying event, retain factual attribution, and remove editorial self-justification.'},
+            {'role': 'user', 'content': prompt},
+        ],
+        text={'format': {'type': 'json_schema', 'name': 'morning_edition_copy_edit', 'strict': True, 'schema': EDIT_SCHEMA}},
+    )
+    if not response.output_text:
+        raise ValueError('Copy editor returned no edited issue')
+    return apply_copy_edit(issue, json.loads(response.output_text))
+
+
 def prepare_for_publication(issue: dict, history: list[dict]) -> dict:
     """Discard individual bad citations/duplicates before final strict validation.
 
@@ -273,6 +470,8 @@ def prepare_for_publication(issue: dict, history: list[dict]) -> dict:
             reason = 'missing article text'
         elif too_similar(story, history):
             reason = 'already covered without a substantive update'
+        elif any(canonical_source_url(story.get('url', '')) == canonical_source_url(item[2].get('url', '')) for item in accepted):
+            reason = 'same source article already covered in this edition'
         elif too_similar({**story, 'update_note': '', 'new_development': ''},
                          [item[2] for item in accepted]):
             reason = 'duplicate within this edition'
@@ -305,11 +504,14 @@ def prepare_for_publication(issue: dict, history: list[dict]) -> dict:
     seen_read_titles = set()
     prior_titles = {normalize_title(item.get('title', '')) for item in history}
     story_titles = {normalize_title(item[2].get('title', '')) for item in accepted}
+    article_urls = {canonical_source_url(item[2].get('url', '')) for item in accepted}
+    for item in accepted:
+        article_urls.update(canonical_source_url(extra.get('url', '')) for extra in item[2].get('additional_sources', []))
     for read in issue.get('long_reads', []):
         title = normalize_title(read.get('title', ''))
         if not valid_url(read.get('url', '')):
             print(f'::warning::Skipped reading-room link (invalid URL): {read.get("title", "")}', flush=True)
-        elif title in prior_titles or title in story_titles or title in seen_read_titles:
+        elif canonical_source_url(read.get('url', '')) in article_urls or title in prior_titles or title in story_titles or title in seen_read_titles:
             print(f'::warning::Skipped repeated reading-room item: {read.get("title", "")}', flush=True)
         else:
             reads.append(read)
@@ -330,19 +532,26 @@ def validate(issue: dict, history: list[dict]):
     if not valid_url(issue['lead']['url']):
         raise ValueError('Lead article is missing a secure source URL')
     seen = []
+    seen_urls = set()
     for story in stories:
         if not isinstance(story.get('paragraphs'), list) or not story['paragraphs']:
             raise ValueError(f'Missing text in: {story.get("title")}')
         if not valid_url(story.get('url', '')):
             raise ValueError(f'Invalid source URL in: {story.get("title")}')
+        if canonical_source_url(story.get('url', '')) in seen_urls:
+            raise ValueError(f'Repeated source article within the issue: {story.get("title")}')
         if too_similar(story, history):
             raise ValueError(f'Repeated old story without meaningful update: {story.get("title")}')
         if too_similar({**story, 'update_note': '', 'new_development': ''}, seen):
             raise ValueError(f'Repeated story within the same issue: {story.get("title")}')
         seen.append(story)
+        seen_urls.add(canonical_source_url(story.get('url', '')))
+        seen_urls.update(canonical_source_url(s.get('url', '')) for s in story.get('additional_sources', []))
     for read in issue.get('long_reads', []):
         if not valid_url(read.get('url', '')):
             raise ValueError('Long read missing valid source URL')
+        if canonical_source_url(read.get('url', '')) in seen_urls:
+            raise ValueError(f'Recycled reading-room article: {read.get("title")}')
         if any(normalize_title(read.get('title', '')) == normalize_title(h.get('title', '')) for h in history):
             raise ValueError(f'Recycled reading-room selection: {read.get("title")}')
 
@@ -364,10 +573,11 @@ RESEARCH REQUIREMENTS:
 - Real events ONLY. Do not invent scores, publication dates, quotes, places, article URLs, or source names. If an item cannot be verified with search evidence, omit it.
 - Direct https URL to the actual source article (NOT google.com search URLs, not fake links).
 - Ensure the lead and main stories are current; older science/history features must clearly convey their age.
-- Select roughly 18–24 DIFFERENT news stories across about five sections, plus 2–3 optional longer reads. Aim for several paragraphs in each major story and compact briefs for the rest.
+- Select roughly 18–24 DISTINCT underlying news events (not article links) across about five sections, plus 2–3 optional longer reads. One summit, meeting, controversy, announcement, or event gets ONE cohesive article even if many sources cover it. Do not parcel out different angles of the same story to hit a quota. Aim for several paragraphs in each major story and compact briefs for the rest.
 - A story already in the previous issue is NOT fresh just because another publisher wrote it. Include only if a consequential development occurred since last appearance; mark update_note='UPDATE', write new_development explicitly and lead with that NEW fact. Otherwise never repeat.
 - Be mindful of the reader's local teams, not just national sports generalities. Include scores only when actually verified.
 - Provide source URL, source name and published date when confirmed. Never use a placeholder, homepage, bare domain, citation token, Markdown link, or fabricated URL. If there is no verified direct HTTPS article URL, omit the story entirely.
+- Write like a straightforward newspaper, never discussing why an article belongs in this newspaper, why readers should care, or what is interesting about the coverage. No 'Why it matters' boxes, justification, motivational conclusions, or meta-commentary about journalism. Integrate verified context into factual paragraphs when warranted.
 - Do not use markdown formatting inside JSON text fields. Make accurate, original summaries, not copied paragraphs.
 - Output a VALID JSON object matching the requested schema; date must be {DATE}.
 '''
@@ -377,7 +587,7 @@ RESEARCH REQUIREMENTS:
         tools=[{'type': 'web_search'}],
         tool_choice='required',
         input=[
-            {'role': 'system', 'content': 'You are the careful editor of a trusted local-aware daily newspaper. Verify reporting via web search, prioritize genuine novelty, and output JSON only.'},
+            {'role': 'system', 'content': 'You are a rigorous newspaper reporter. Verify reporting via web search, prioritize one article per underlying event, avoid editorial self-justification, and output JSON only.'},
             {'role': 'user', 'content': prompt},
         ],
         text={'format': {'type': 'json_schema', 'name': 'morning_edition', 'strict': True, 'schema': SCHEMA}},
@@ -396,7 +606,8 @@ def publish(issue: dict, history: list[dict]):
     # Validate and render first. Writes follow only when all have succeeded.
     updates = []
     for story in all_stories(issue):
-        updates.append({'date': DATE, 'key': compact_key(story['key']), 'title': story['title']})
+        for key in dict.fromkeys(story.get('merged_keys') or [story['key']]):
+            updates.append({'date': DATE, 'key': compact_key(key), 'title': story['title']})
     for read in issue.get('long_reads', []):
         updates.append({'date': DATE, 'key': compact_key('longread-' + read['title']), 'title': read['title']})
     new_history = [h for h in history if h.get('date') != DATE] + updates
@@ -418,6 +629,12 @@ def main():
         sys.exit('OPENAI_API_KEY is missing. Set it as a GitHub Actions repository secret; no files were changed.')
     history = load_history()
     issue = generate(history)
+    try:
+        issue = copy_edit(issue)
+    except Exception as exc:
+        # Publishing should not depend on the optional editorial API call.
+        # Local URL/title filters still run, and no extra web research is billed.
+        print(f'::warning::Copy-editor pass failed ({type(exc).__name__}: {exc}); using source-checked draft.', flush=True)
     issue = prepare_for_publication(issue, history)
     validate(issue, history)
     publish(issue, history)
