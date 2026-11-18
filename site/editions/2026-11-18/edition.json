@@ -1,0 +1,354 @@
+{
+  "date": "2026-11-18",
+  "lead": {
+    "key": "us-midterms-democrats-senate-gains-2026-11-18",
+    "category": "U.S. politics",
+    "title": "Democrats’ Senate surge sharpens the balance of power after the midterms",
+    "deck": "New AP reporting says Democrats flipped nine Senate seats, a scale of gains not seen in nearly seven decades, giving Washington a newly altered power map as President Donald Trump travels in Asia.",
+    "paragraphs": [
+      "The clearest new fact this morning is the size of the Democratic Senate gain. The Associated Press reported early Wednesday that Democrats flipped nine U.S. Senate seats in the 2026 midterms, the biggest Senate pickup for a president’s opposition party in almost 70 years. That does not settle every policy fight by itself, but it does change the leverage available for confirmations, oversight, and the shape of the next two years in Washington.",
+      "The shift comes at an awkward moment for the White House. Trump is in China for an Asia-Pacific trip that now carries both diplomatic and domestic stakes, with AP describing a president trying to project strength abroad while his political position at home has weakened after the election. For readers in South Jersey and the Philadelphia region, the practical question is less partisan drama than what divided government means for transit funding, tariffs, federal grants, school aid, and the regulatory climate facing employers and universities across the corridor."
+    ],
+    "why": "A changed Congress affects everything from local infrastructure grants to trade policy, and it will shape how much of the White House agenda can still move.",
+    "source": "Associated Press",
+    "url": "https://apnews.com/article/aa623c1c32cb493c21633a1a6a140578",
+    "published": "2026-11-18",
+    "update_note": "",
+    "new_development": ""
+  },
+  "sections": [
+    {
+      "name": "Nation & World",
+      "stories": [
+        {
+          "key": "trump-xi-competition-apec-2026-11-18",
+          "category": "Foreign policy",
+          "title": "Trump-Xi meeting puts trade and technology rivalry at center stage",
+          "deck": "AP’s new explainer says the U.S.-China contest over technology, manufacturing and geopolitical influence is framing this week’s summit diplomacy.",
+          "paragraphs": [
+            "As Trump meets Xi Jinping this week, AP reports that the U.S.-China relationship is being defined by a mix of technological competition, trade friction, and mutual economic dependence. The White House enters the meeting after midterm losses and amid renewed debate over how aggressively Washington should police advanced technology flows to China.",
+            "For a region like greater Philadelphia, the issue is not abstract. Tariffs, export controls, and supply-chain shifts can affect port activity, manufacturing costs, university research ties, and the price of consumer goods. The summit may not deliver a grand bargain, but it will help signal whether the two governments are headed toward narrower guardrails or a rougher economic confrontation."
+          ],
+          "why": "Trade and tech policy set costs for businesses and consumers, and they influence the federal money and industrial strategy now touching many local employers.",
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/0324c1116e07ed0c188fad0d94398296",
+          "published": "2026-11-18",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "trump-china-trip-tech-snafus-2026-11-18",
+          "category": "National affairs",
+          "title": "Trump arrives in China as U.S. technology outages linger in the political background",
+          "deck": "AP says the president is trying to emphasize American technological strength abroad after recent outages at home rattled public confidence.",
+          "paragraphs": [
+            "A second AP dispatch from Shenzhen says Trump landed in China seeking to reinforce the idea of U.S. technological leadership, but did so against a backdrop of recent domestic technical disruptions that left Americans worrying about essential systems such as email, banking access and air travel. The contrast has become part of the politics of the trip.",
+            "That tension matters because national resilience is no longer just a cybersecurity or transport beat story. It is now a trust story: whether voters, markets, and allies believe the U.S. can reliably run the systems modern life depends on. In the Philadelphia region, where aviation, medicine, higher education and logistics are central industries, that confidence matters in a very practical way."
+          ],
+          "why": "Reliability of critical systems has become both a governance issue and an economic one.",
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/3fc8110f4b4414bfb2c03596f61da862",
+          "published": "2026-11-18",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "retail-sales-october-2026-11-17",
+          "category": "Economy",
+          "title": "Retail spending slowed in October, a fresh sign of consumer strain",
+          "deck": "AP reports that October retail spending softened as high prices continued to wear on shoppers, even though a key core measure still rose solidly.",
+          "paragraphs": [
+            "The latest U.S. retail-sales snapshot was mixed. AP reported Tuesday that spending slowed for retailers in October as high prices made households more cautious, though the so-called control group used in GDP calculations rose 0.6%. That suggests consumers are still buying, but more selectively and with less room for error.",
+            "For local readers, this is the kind of national indicator that shows up later in daily life: on hiring plans, holiday promotions, restaurant traffic, mall performance and municipal tax collections. If consumers keep pulling back while essentials stay expensive, the pressure lands hardest on lower-margin businesses and families already stretching to cover transportation, rent and groceries."
+          ],
+          "why": "Holiday-season spending is a major economic test, and South Jersey retail and service businesses feel changes quickly.",
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/0f76e8e304f5560e5a3116c4fec5d6b0",
+          "published": "2026-11-17",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "un-climate-small-islands-2026-11-18",
+          "category": "Climate",
+          "title": "At U.N. climate talks, small island states press for faster action",
+          "deck": "AP reports that vulnerable island nations are demanding stronger commitments as the United States is absent from the talks for a second straight year.",
+          "paragraphs": [
+            "At the latest U.N. climate talks, AP reports that small island states are again trying to force urgency into negotiations, arguing that political caution is badly out of step with lived reality on the ground. The story notes that the United States is absent from the talks for the second year in a row.",
+            "That has consequences beyond diplomacy. Climate negotiations influence the tone of global energy policy, adaptation finance, and expectations for future regulation. Coastal states like New Jersey have their own direct stake in how quickly resilience planning and emissions policy evolve, even when the decisive fights seem far from home."
+          ],
+          "why": "Global climate policy often trickles down into local infrastructure, insurance, flood planning and energy investment.",
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/6d0afe638c93be3150b5bb3b5cd3fd23",
+          "published": "2026-11-18",
+          "update_note": "",
+          "new_development": ""
+        }
+      ]
+    },
+    {
+      "name": "Philadelphia & South Jersey",
+      "stories": [
+        {
+          "key": "market-east-housing-plan-2026-11-16",
+          "category": "Philadelphia development",
+          "title": "Parker team sketches a housing-heavy future for Market East",
+          "deck": "The Inquirer reports the administration wants more than 2,000 new homes on East Market Street, though financing and implementation details remain unsettled.",
+          "paragraphs": [
+            "Philadelphia’s post-arena question is turning into a housing question. The Inquirer reported Monday that Mayor Cherelle Parker’s administration wants more than 2,000 new homes on East Market Street, recasting a struggling corridor once tied to the failed 76ers arena proposal as a test of whether the city can convert commercial weakness into residential growth.",
+            "The ambition is notable; the unanswered details are, too. The administration has not yet laid out the full package of incentives and policy tools, with a fuller plan expected in January. That means this is still more direction than deal. But for Center City and the region, the project is important because it asks whether Philadelphia can produce housing at scale in a soft office market instead of letting a central corridor continue to drift."
+          ],
+          "why": "Center City’s recovery is inseparable from housing, transit and foot traffic, and decisions there spill outward into the whole regional economy.",
+          "source": "The Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/real-estate/commercial/east-market-street-advisory-board-mayor-parker-20261116.html",
+          "published": "2026-11-16",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "camden-superintendent-push-2026-11-17",
+          "category": "South Jersey education",
+          "title": "Camden leaders push to remove the city’s schools superintendent",
+          "deck": "The Inquirer’s South Jersey report says Camden’s mayor and other leaders are seeking the ouster of the state-appointed superintendent, escalating a fight over governance and enrollment policy.",
+          "paragraphs": [
+            "A significant South Jersey education power struggle is unfolding in Camden. The Inquirer reported Tuesday that Mayor Victor Carstarphen and other local leaders want state-appointed superintendent Katrina McCombs Llano out, with one flashpoint involving notice that public schools are set to withdraw from One Camden, the unified enrollment system.",
+            "This is a Camden story first, but it is also a broader regional one about who controls urban school systems, how parents navigate enrollment, and how state intervention ages over time. Governance battles can sound procedural until they begin affecting classroom stability, staffing and public confidence."
+          ],
+          "why": "School governance decisions shape family choices, district credibility and city politics across the region.",
+          "source": "The Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/south-jersey/camden-schools-hockey-rink-oaklyn-sherrill-thanksgiving-20261117.html",
+          "published": "2026-11-17",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "philly-south-broad-transit-zoning-2026-11-12",
+          "category": "Housing & zoning",
+          "title": "Council proposal would make it easier to build apartments near South Broad stations",
+          "deck": "The Inquirer reports Philadelphia is weighing zoning incentives around several Broad Street Line stops to encourage more multifamily development.",
+          "paragraphs": [
+            "Transit-oriented development keeps moving from slogan to statute. The Inquirer reported last week that City Council introduced legislation to extend zoning incentives around five South Broad Street subway stations, making it easier to build multifamily housing near the Broad Street Line.",
+            "The idea fits the larger argument that homes should go where transit already exists. The political question is whether Philadelphia can keep adding housing without every corridor getting trapped in block-by-block fights over density, parking and neighborhood change. If the city cannot, its affordability goals and transit goals will keep colliding."
+          ],
+          "why": "More housing near transit can affect rents, ridership, traffic and neighborhood growth across the city.",
+          "source": "The Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/real-estate/housing/kenyatta-johnson-transit-oriented-development-zoning-mark-squilla-20261112.html?int_promo=newsroom",
+          "published": "2026-11-12",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "philly-commercial-zoning-roadblock-2026-11-13",
+          "category": "Housing policy",
+          "title": "Parker’s commercial-corridor housing bill hits resistance in Council",
+          "deck": "The Inquirer says a mayor-backed effort to allow more homes in commercial areas has been paused after community opposition.",
+          "paragraphs": [
+            "Philadelphia’s broader housing push is also meeting resistance at neighborhood scale. The Inquirer reported Nov. 13 that City Council paused consideration of a Parker-backed zoning bill meant to allow more homes in commercial corridors after pushback from some communities and councilmembers.",
+            "That matters because the city’s housing plans increasingly depend on modest, repeated zoning changes rather than a single dramatic megaproject. If even incremental reform stalls, the city may struggle to reach its stated production goals, especially while financing and construction costs remain elevated."
+          ],
+          "why": "Housing shortages are often driven as much by small land-use rules as by headline-grabbing projects.",
+          "source": "The Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/real-estate/commercial/mayor-parker-neighborhood-commercial-zoning-rco-20261113.html",
+          "published": "2026-11-13",
+          "update_note": "",
+          "new_development": ""
+        }
+      ]
+    },
+    {
+      "name": "Business, Tech & Science",
+      "stories": [
+        {
+          "key": "ai-chip-controls-china-2026-11-16",
+          "category": "Technology policy",
+          "title": "Washington moves to tighten AI-chip controls aimed at China",
+          "deck": "AP reports the Trump administration is backing steps meant to block indirect Chinese access to advanced American AI technology.",
+          "paragraphs": [
+            "The U.S. campaign to restrict China’s access to cutting-edge AI hardware is hardening. AP reported this week that the administration is pushing measures that would let Congress review some export licenses, track chips to prevent diversion, and pressure allies such as Japan and the Netherlands to match U.S. restrictions.",
+            "That is national-security policy, but it is also industrial policy. Tighter controls can redirect investment, complicate sales for chip companies, and intensify pressure on cloud providers, universities and startups that depend on predictable access to advanced compute. In a region with dense health, research and education sectors, the effects could eventually be felt well beyond Silicon Valley."
+          ],
+          "why": "AI policy is increasingly tied to supply chains, research capacity and U.S. competitiveness.",
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/60f868d3bb430b85a8657b27d421096e",
+          "published": "2026-11-16",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "nvidia-fallout-tech-ceos-2026-11-18",
+          "category": "Technology industry",
+          "title": "Nvidia fallout continues to unsettle the AI industry",
+          "deck": "AP reports that executives and policymakers are still digesting the consequences of Jensen Huang’s exit and what it means for AI competition.",
+          "paragraphs": [
+            "One of the week’s biggest technology stories is not a product launch but the continuing fallout from Nvidia’s leadership crisis. AP reported Wednesday that the saga around Jensen Huang’s exit remained a major topic at a Silicon Valley forum, where business and policy figures linked it to export rules, corporate governance and the broader U.S.-China tech contest.",
+            "The immediate question is who benefits from instability at the company that has dominated the AI-chip boom. The longer question is whether the shock cools investor exuberance or simply redistributes it. Either way, the story matters because the AI economy rests on a relatively small set of firms, suppliers and regulatory decisions."
+          ],
+          "why": "When a company at the center of the AI stack wobbles, the effect spreads across software, research and markets.",
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/063310aae44182e67e55c04c5b1e29e4",
+          "published": "2026-11-18",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "voyager-one-light-day-2026-11-18",
+          "category": "Space",
+          "title": "Voyager 1 reaches the one-light-day mark from Earth",
+          "deck": "NASA says Voyager 1 crossed a symbolic distance milestone on Nov. 18, nearly 49 years after launch.",
+          "paragraphs": [
+            "A welcome piece of perspective from space: NASA says Voyager 1 reaches a distance of one light-day from Earth on Wednesday, Nov. 18, 2026, meaning light takes a full day to travel between the spacecraft and our planet. The probe remains one of the longest-running and most evocative scientific missions ever launched.",
+            "This is not a breaking crisis or policy fight, just a reminder of the long arc of public science. Voyager’s milestone is the sort of story that belongs in a morning paper because it widens the frame: amid elections, tariffs and zoning hearings, some human projects still unfold on a timescale measured in decades."
+          ],
+          "why": "Readers deserve some scale and wonder along with the day’s harder news.",
+          "source": "NASA Science",
+          "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/",
+          "published": "2026-11-04",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "nasa-terra-mission-end-2026-11-17",
+          "category": "Earth science",
+          "title": "NASA says its Terra mission is ending after a quarter-century in orbit",
+          "deck": "NASA’s science news archive lists the end of the Terra Earth-observing mission as a new Nov. 17 development.",
+          "paragraphs": [
+            "NASA’s science news feed posted Tuesday that the Terra mission is coming to an end, closing a major chapter in Earth observation. Terra has been one of the foundational satellites for tracking land, atmosphere and climate-related change across the planet.",
+            "Missions end, but data legacies remain. For anyone trying to understand climate trends, wildfire smoke, drought, urban heat or changing coastlines, long-running Earth-observing platforms such as Terra have been essential. Its retirement is a reminder that scientific infrastructure also needs renewal."
+          ],
+          "why": "Earth-observing satellites underpin climate science, forecasting and many forms of practical planning.",
+          "source": "NASA Science",
+          "url": "https://science.nasa.gov/blogs/science-news/",
+          "published": "2026-11-17",
+          "update_note": "",
+          "new_development": ""
+        }
+      ]
+    },
+    {
+      "name": "Sports",
+      "stories": [
+        {
+          "key": "philly-sports-travel-normalizing-2026-11-14",
+          "category": "Regional sports",
+          "title": "After the FAA disruption, pro and college teams are getting travel back to normal",
+          "deck": "AP reports the nationwide ground stop scrambled schedules across the sports world, though most events were gradually restored over the weekend.",
+          "paragraphs": [
+            "One lingering sports-business angle from last week’s national air-traffic disruption: AP reported that the FAA ground stop upended travel for NBA, NHL and college teams before operations gradually normalized. Philadelphia teams were part of a sports landscape suddenly reminded how dependent every league is on fragile national infrastructure.",
+            "That is not just a curiosity. Modern sports schedules are built for tight turnarounds, and the same transport disruptions that hit fans and business travelers can hit teams, officials, broadcasters and arena operations. It is another example of how infrastructure failures ripple well beyond their original lane."
+          ],
+          "why": "Sports often reveal how operationally thin national systems have become.",
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/9c462ce18006683a01c76e5737a78460",
+          "published": "2026-11-14",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "xfinity-mobile-arena-name-context-2025-05-06",
+          "category": "Sports business",
+          "title": "The region’s main pro arena keeps adjusting to a new commercial era",
+          "deck": "The AP’s earlier report on the South Philadelphia arena’s Xfinity Mobile naming-rights deal remains relevant context as the city’s sports-and-development map keeps shifting.",
+          "paragraphs": [
+            "Not every sports story is on the field. AP reported in 2025 that the home of the 76ers and Flyers received a new naming-rights identity as Xfinity Mobile Arena, another marker of how sports venues increasingly function as year-round commercial platforms rather than just game sites.",
+            "That backdrop matters in Philadelphia, where arena politics, downtown development and team branding have all been unusually entangled. Even after the downtown arena fight collapsed, the business of sports real estate remains a major civic story."
+          ],
+          "why": "In Philadelphia, sports facilities often become arguments about neighborhood futures, transit and tax priorities.",
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/d5a3c6dc790d5ef8ecdceb61475dc1d9",
+          "published": "2025-05-06",
+          "update_note": "",
+          "new_development": ""
+        }
+      ]
+    },
+    {
+      "name": "Culture, Curiosity & Briefs",
+      "stories": [
+        {
+          "key": "voyager-light-day-skywatching-2026-11-18",
+          "category": "Curiosity",
+          "title": "Tonight’s small wonder: we are now a full light-day from Voyager 1",
+          "deck": "NASA’s skywatching note turns a hard-to-grasp space milestone into a vivid unit of distance.",
+          "paragraphs": [
+            "If you want one conversation starter for breakfast or homeroom, this is a good one: as of Nov. 18, 2026, a radio signal traveling at light speed takes a full day to reach Voyager 1. NASA built that point into this month’s skywatching notes, and it is the rare science fact that doubles as poetry.",
+            "It is also a neat civic reminder that public institutions can still create durable things. Voyager launched in 1977 and is still enlarging our sense of scale in 2026."
+          ],
+          "why": "A newspaper should leave room for astonishment, not only alarms.",
+          "source": "NASA Science",
+          "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/",
+          "published": "2026-11-04",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "apod-m-class-solar-flare-2026-11-18",
+          "category": "Science image",
+          "title": "NASA’s Astronomy Picture of the Day highlights an M-class solar flare",
+          "deck": "Today’s APOD offers a timely visual of solar activity, a useful reminder that space weather can have earthly consequences.",
+          "paragraphs": [
+            "NASA’s Astronomy Picture of the Day for Wednesday features an M-class solar flare. That is a visual treat first, but also a good excuse to remember that the Sun is not just scenery: solar activity can affect satellites, communications and power systems.",
+            "This is a smaller item, but a fitting one for a morning edition trying to balance public affairs with a little disciplined wonder."
+          ],
+          "why": "Space weather is both beautiful and practical.",
+          "source": "NASA Science",
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/",
+          "published": "2026-11-18",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "northern-liberties-wallet-thefts-2026-11-17",
+          "category": "Public safety brief",
+          "title": "Philadelphia police investigate wallet theft pattern in Northern Liberties",
+          "deck": "6ABC’s news feed says multiple women reported wallet thefts at businesses in Northern Liberties, followed by unauthorized purchases.",
+          "paragraphs": [
+            "A useful local cautionary brief: 6ABC’s Philadelphia news feed reported Tuesday that police are investigating multiple wallet thefts in Northern Liberties after several women said their wallets were stolen at businesses and then used to make substantial purchases.",
+            "The story is not city-defining, but it is exactly the kind of practical metro brief a regional morning paper should carry: specific, local and immediately useful."
+          ],
+          "why": "Not every important local item is a major scandal; some simply help readers navigate the day more safely.",
+          "source": "6ABC",
+          "url": "https://6abc.com/News/",
+          "published": "2026-11-17",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "kensington-juvenile-shooting-2026-11-18",
+          "category": "Crime brief",
+          "title": "Police report juvenile shot in Kensington",
+          "deck": "6ABC reports a juvenile was shot on Frankford Avenue in Kensington early Wednesday.",
+          "paragraphs": [
+            "6ABC reported early Wednesday that police are investigating a shooting involving a juvenile on Frankford Avenue in Kensington. As of the station’s posted report, the case was in its early stages.",
+            "This item is included cautiously and briefly because early crime reports can change. The core verified fact this morning is that police reported the shooting and an investigation is underway."
+          ],
+          "why": "Breaking local safety news can matter to readers even before all details are known, as long as it is clearly labeled as preliminary.",
+          "source": "6ABC",
+          "url": "https://latency.6abc.com/post/police-juvenile-shot-frankford-avenue-kensington-section-philadelphia/20049449/",
+          "published": "2026-11-18",
+          "update_note": "",
+          "new_development": ""
+        }
+      ]
+    }
+  ],
+  "long_reads": [
+    {
+      "title": "How East Market may become a housing corridor instead of an arena district",
+      "description": "The Inquirer’s reporting on the Parker administration’s emerging Market East vision is a good deeper read on post-arena redevelopment, housing politics and downtown uncertainty.",
+      "source": "The Philadelphia Inquirer",
+      "url": "https://www.inquirer.com/real-estate/commercial/east-market-street-advisory-board-mayor-parker-20261116.html"
+    },
+    {
+      "title": "What to know about U.S.-China competition before the Trump-Xi meeting",
+      "description": "AP’s explainer is a concise guide to the trade, technology and geopolitical stakes around this week’s summit diplomacy.",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/0324c1116e07ed0c188fad0d94398296"
+    },
+    {
+      "title": "November’s Night Sky Notes: Light-Day Away",
+      "description": "NASA’s essay on Voyager 1’s one-light-day milestone is a smart, readable science piece for anyone wanting one calmer item after the political news.",
+      "source": "NASA Science",
+      "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/"
+    }
+  ]
+}
