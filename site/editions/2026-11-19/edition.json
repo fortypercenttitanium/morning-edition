@@ -1,0 +1,304 @@
+{
+  "date": "2026-11-19",
+  "lead": {
+    "key": "trump-xi-putin-shenzhen-meeting-2026-11-19",
+    "category": "World",
+    "title": "Trump, Xi and Putin meet in rare trilateral session as Democrats expand Senate majority",
+    "deck": "The three leaders gathered in Shenzhen to discuss nuclear risks, Ukraine, Iran and trade friction, while in Washington Democrats’ Senate gains and new Fed minutes signaled a busy political and economic stretch ahead.",
+    "paragraphs": [
+      "President Donald Trump met Thursday in Shenzhen with Chinese leader Xi Jinping and Russian President Vladimir Putin in the first such three-way meeting of the leaders of the United States, China and Russia. AP reported that the session came after separate Trump-Xi talks and was framed by the White House as an attempt to press both rivals on nuclear risks and regional wars.",
+      "Early reporting from the meeting said nuclear arms, the wars involving Iran and Ukraine, and unresolved trade disputes were high on the agenda. AP also reported that U.S. officials said China had not fully met commitments made at a previous Trump-Xi meeting on agricultural purchases and rare-earth trade.",
+      "Meanwhile, AP reported Wednesday that Democrats flipped nine Senate seats in the 2026 midterms, giving the party a 56-44 majority in the next Congress. The gains came even as midterms usually punish the president’s party, sharpening the pressure on both parties ahead of year-end fiscal and policy fights.",
+      "Minutes released Wednesday from the Federal Reserve’s October meeting showed that nearly all officials expected a quarter-point rate increase in December, with some participants having favored a move sooner and two floating a larger half-point step next month. The discussion adds to signs that policymakers believe inflation remains stubborn enough to require tighter policy into early 2027."
+    ],
+    "source": "Associated Press",
+    "url": "https://apnews.com/article/3d0f8ed366d6084e1cfe12a4d8020c55",
+    "published": "2026-11-19",
+    "update_note": "",
+    "new_development": "",
+    "merged_keys": [
+      "trump-xi-putin-shenzhen-meeting-2026-11-19",
+      "us-senate-democrats-nine-seat-gain-2026-11-18",
+      "fed-minutes-december-rate-hike-2026-11-18"
+    ],
+    "additional_sources": [
+      {
+        "source": "Associated Press",
+        "url": "https://apnews.com/article/aa623c1c32cb493c21633a1a6a140578",
+        "published": "2026-11-18"
+      },
+      {
+        "source": "Associated Press",
+        "url": "https://apnews.com/article/9e72f3b6e3484173471cc382d6918de0",
+        "published": "2026-11-19"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "name": "Climate and weather",
+      "stories": [
+        {
+          "key": "cop31-us-absence-and-energy-shock-2026-11-19",
+          "category": "Climate",
+          "title": "COP31 and winter outlooks reflect climate pressure and energy concerns",
+          "deck": "Delegates in Turkey are wrestling with climate finance and energy insecurity as federal forecasters say El Niño remains central to the winter pattern.",
+          "paragraphs": [
+            "At COP31 in Antalya, Turkey, delegates entered the summit’s final week facing a difficult mix of climate diplomacy and energy insecurity. AP reported that many American governors, mayors and Democratic officials attended even as the Trump administration stayed away from the official U.S. role.",
+            "A separate AP report on energy and climate said the International Energy Agency sees no return to prewar energy conditions after the Iran conflict’s shock, tying immediate fuel security worries to the longer transition debate.",
+            "NOAA said in its winter outlook last month that El Niño was likely to be a major driver of U.S. weather in December through February, favoring warmer-than-average temperatures across much of the northern United States and wetter-than-average conditions across the southern tier and the Eastern Seaboard. The agency said its next update would be available Nov. 19."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/a53b5522e557afd5370c08aee351032b",
+          "published": "2026-11-19",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "cop31-us-absence-and-energy-shock-2026-11-19",
+            "noaa-el-nino-winter-outlook-update-2026-11-19"
+          ],
+          "additional_sources": [
+            {
+              "source": "NOAA",
+              "url": "https://noaa.gov/news-release/el-nino-looms-large-over-us-winter-outlook",
+              "published": "2026-10-15"
+            }
+          ]
+        },
+        {
+          "key": "burlington-county-november-tornado-context-2026-11-13",
+          "category": "Weather",
+          "title": "Burlington County tornado adds to an unusually late-season storm pattern",
+          "deck": "The National Weather Service confirmed an EF1 tornado in Chesterfield during last week’s hailstorm.",
+          "paragraphs": [
+            "Last week’s violent storm in the Philadelphia region included an EF1 tornado in Chesterfield, Burlington County, with top winds around 100 mph and damage along a 1.5-mile path, The Inquirer reported after National Weather Service confirmation.",
+            "The storm was unusual not only for golf-ball-size hail but also for timing: the paper reported New Jersey had not seen a confirmed tornado that late in November since 1989."
+          ],
+          "source": "The Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/weather/hail-tornado-philadelphia-weekend-weather-forecast-cold-20261113.html",
+          "published": "2026-11-13",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "burlington-county-november-tornado-context-2026-11-13"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Philadelphia and the region",
+      "stories": [
+        {
+          "key": "philadelphia-reworld-contract-committee-rejects-2026-11-18",
+          "category": "Philadelphia",
+          "title": "Council committee rejects proposed Philadelphia contract with Chester incinerator operator",
+          "deck": "A City Council committee removed Reworld from a waste-disposal contract package after opposition from Chester residents and environmental advocates.",
+          "paragraphs": [
+            "A Philadelphia City Council committee on Wednesday refused to advance a proposed new contract with Reworld Waste, the company that burns much of Philadelphia’s trash at its incinerator in Chester. WHYY reported that council members amended the ordinance to strike Reworld from a broader authorization for three sanitation contracts before sending the bill onward.",
+            "The fight has become a regional environmental-justice issue because Chester has long borne the burden of heavy industrial uses, including waste processing that serves Philadelphia. The full Council still must act on the remaining contracts before they can take effect."
+          ],
+          "source": "WHYY",
+          "url": "https://whyy.org/articles/philadelphia-city-council-committee-rejects-reworld-incinerator-contract/",
+          "published": "2026-11-18",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "philadelphia-reworld-contract-committee-rejects-2026-11-18"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "philadelphia-flu-season-early-start-2026-11-17",
+          "category": "Health",
+          "title": "Philadelphia region’s flu season is arriving earlier and harder, doctors say",
+          "deck": "Hospitals and clinicians report more cases and more severe symptoms than they would usually expect in mid-November.",
+          "paragraphs": [
+            "Doctors and health systems around Philadelphia say the flu season is off to an unusually early start, with more patients arriving sick and some experiencing more severe symptoms than is typical this early in the season. WHYY reported that clinicians are urging vaccination and caution as case counts rise locally and nationally.",
+            "An early start does not determine how the rest of the season will unfold, but it does raise pressure on hospitals heading into Thanksgiving travel and holiday gatherings. Public-health officials are continuing to stress flu shots, especially for older adults, children and people with underlying conditions."
+          ],
+          "source": "WHYY",
+          "url": "https://whyy.org/articles/philadelphia-flu-season-strain-vaccine-2026/",
+          "published": "2026-11-17",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "philadelphia-flu-season-early-start-2026-11-17"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "philadelphia-thanksgiving-cost-inflation-2026-11-19",
+          "category": "Local Economy",
+          "title": "Inflation changes the comparison on Philadelphia Thanksgiving dinner prices",
+          "deck": "A local analysis says the long-term increase in holiday meal prices looks different once inflation is taken into account.",
+          "paragraphs": [
+            "WHYY examined a new report from Philadelphia City Controller Christy Brady on Thanksgiving meal prices and found that while nominal costs have climbed sharply since 1976, the inflation-adjusted picture is more mixed. The analysis challenges the simpler impression that holiday dinner has become straightforwardly unaffordable over five decades.",
+            "The piece arrives as households continue to juggle grocery costs and interest-rate pressure. It also highlights how headline comparisons across long spans can obscure what inflation has done to purchasing power."
+          ],
+          "source": "WHYY",
+          "url": "https://whyy.org/articles/thanksgiving-dinner-prices-inflation/",
+          "published": "2026-11-19",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "philadelphia-thanksgiving-cost-inflation-2026-11-19"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "philadelphia-marathon-weekend-things-to-do-2026-11-19",
+          "category": "Culture",
+          "title": "Marathon weekend and early holiday events anchor the regional calendar",
+          "deck": "Philadelphia’s marathon, stage shows and South Jersey holiday programming are among the weekend’s main offerings.",
+          "paragraphs": [
+            "WHYY’s Thursday events roundup put the Philadelphia Marathon weekend at the center of the region’s immediate cultural calendar, alongside stage productions, comedy dates and music performances across the city and suburbs.",
+            "The listing also pointed to South Jersey holiday programming and major arena and theater events over the next several days. Marathon weekend is expected to bring both crowds and road impacts around the city’s route."
+          ],
+          "source": "WHYY",
+          "url": "https://whyy.org/articles/things-to-do-november-2026-weekend-3/",
+          "published": "2026-11-19",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "philadelphia-marathon-weekend-things-to-do-2026-11-19"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Sports",
+      "stories": [
+        {
+          "key": "flyers-sabres-2026-11-18",
+          "category": "NHL",
+          "title": "Flyers rally past Sabres, 4-3",
+          "deck": "Philadelphia erased deficits twice and won on Christian Dvorak’s third-period goal.",
+          "paragraphs": [
+            "The Flyers beat Buffalo 4-3 on Tuesday night at Xfinity Mobile Arena, continuing a steadier patch of form after a rough start. NHL.com reported that Jamie Drysdale, Owen Tippett, Travis Sanheim and Christian Dvorak scored, with Dvorak adding the tiebreaking goal in the third period.",
+            "The win left Philadelphia 7-11-6, according to NHL.com’s recap, and marked another recent game in which the club generated a heavy shot edge even after falling behind. Buffalo managed only 11 shots over the final two periods."
+          ],
+          "source": "NHL.com",
+          "url": "https://www.nhl.com/news/buffalo-sabres-philadelphia-flyers-game-recap-november-17-2026",
+          "published": "2026-11-18",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "flyers-sabres-2026-11-18"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "sixers-nets-2026-11-16",
+          "category": "NBA",
+          "title": "Sixers hold off Brooklyn behind Embiid’s 37",
+          "deck": "Philadelphia improved to 12-3 after a 135-123 win over the Nets.",
+          "paragraphs": [
+            "Joel Embiid scored a season-high 37 points and Jaylen Brown added 31 as the 76ers beat the Nets 135-123 on Monday night in Brooklyn. NBA.com’s game recap said Tyrese Maxey added 24 points and nine assists while Philadelphia improved to 12-3.",
+            "The official box score showed the Sixers led by as many as 24 and survived a late Brooklyn push after scoring 45 points in the second quarter. LeBron James sat out the second half of the back-to-back, and Philadelphia still moved to 4-0 in games without him this season."
+          ],
+          "source": "NBA.com",
+          "url": "https://www.nba.com/game/phi-vs-bkn-0022600248",
+          "published": "2026-11-16",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "sixers-nets-2026-11-16"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "eagles-season-slide-context-2026-11-19",
+          "category": "NFL",
+          "title": "Eagles remain in a six-game slide entering late November",
+          "deck": "Philadelphia’s most recent verified result remains a 27-10 loss at Washington on Nov. 1.",
+          "paragraphs": [
+            "The Eagles have not played a verified regular-season game in the past few days, but the club remains stuck near the bottom of the NFC East after its most recent posted result, a 27-10 loss to Washington on Nov. 1. The official team recap said Philadelphia dropped its sixth straight game in that contest.",
+            "With Thanksgiving approaching, the Eagles’ season has shifted from early expectations to questions about whether the roster can recover enough to stay relevant in the playoff race."
+          ],
+          "source": "Philadelphia Eagles",
+          "url": "https://www.philadelphiaeagles.com/news/eagles-at-commanders-game-recap-2026-nfl-week-8-sunday-night-football-saquon-barkley-jayden-daniels",
+          "published": "2026-11-02",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "eagles-season-slide-context-2026-11-19"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Business and technology",
+      "stories": [
+        {
+          "key": "openai-gpt-6-2-astra-sol-2026-11-17",
+          "category": "Technology",
+          "title": "OpenAI expands its API lineup and details its frontier-risk process",
+          "deck": "The company added GPT-6.2 Astra and Sol while publishing a new account of how it says it manages high-capability model risk.",
+          "paragraphs": [
+            "OpenAI said this week that it is introducing GPT-6.2 Astra and GPT-6.2 Sol in its API, alongside new pricing options for background completions. According to the company’s release notes and developer changelog, Astra is positioned for demanding reasoning and coding work, while Sol is aimed at faster, lower-cost workflows.",
+            "The announcement adds to a rapid stretch of model updates across the AI industry and gives software teams another reason to revisit model selection, latency tradeoffs and operating costs. OpenAI also said the models are available through the Responses API and Chat Completions, with tool calling tied to the Responses API.",
+            "OpenAI on Wednesday published a new explanation of how it says it manages frontier AI risk from training through deployment. The company said its internal determinations may be reviewed by a Safety Advisory Group and overseen by the Safety and Security Committee of the OpenAI Foundation board."
+          ],
+          "source": "OpenAI",
+          "url": "https://openai.com/news/product-releases/?display=list",
+          "published": "2026-11-17",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "openai-gpt-6-2-astra-sol-2026-11-17",
+            "openai-frontier-risk-framework-2026-11-18"
+          ],
+          "additional_sources": [
+            {
+              "source": "OpenAI",
+              "url": "https://openai.com/index/managing-frontier-ai-risk/",
+              "published": "2026-11-18"
+            }
+          ]
+        },
+        {
+          "key": "anthropic-ipo-priced-2026-11-18",
+          "category": "Markets",
+          "title": "Anthropic prices its IPO at $83 a share",
+          "deck": "The AI company said trading is expected to begin Thursday on Nasdaq under the symbol ANT.",
+          "paragraphs": [
+            "Anthropic said Wednesday that it priced its initial public offering at $83 a share. The company said the offering consists of 980 million Class A shares, most sold by Anthropic itself, and that trading is expected to begin Thursday on the Nasdaq Global Select Market under the symbol ANT.",
+            "The filing and pricing underscore how quickly the commercial AI market has shifted from research partnerships to capital-intensive public-company scale. Anthropic’s announcement said the offering is expected to close on Nov. 20, subject to customary conditions."
+          ],
+          "source": "Anthropic",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "published": "2026-11-18",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "anthropic-ipo-priced-2026-11-18"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "nasa-terra-mission-end-context-2026-11-17",
+          "category": "Space",
+          "title": "NASA says Terra’s long Earth-observing mission is nearing its end",
+          "deck": "The satellite has spent nearly three decades tracking the planet’s atmosphere, land, oceans and ecosystems.",
+          "paragraphs": [
+            "NASA said this week that its Terra mission will stop collecting science data in December, bringing to a close one of the agency’s longest-running Earth-observing satellite programs. Terra has operated for 27 years, helping scientists track wildfires, pollution, clouds, land changes and other linked systems.",
+            "The end of the mission marks a generational shift in Earth observation: some of its work has already been taken up by newer satellites, but Terra’s continuity made it one of the foundational records for climate and environmental monitoring."
+          ],
+          "source": "NASA Science",
+          "url": "https://science.nasa.gov/blogs/science-news/2026/11/",
+          "published": "2026-11-17",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "nasa-terra-mission-end-context-2026-11-17"
+          ],
+          "additional_sources": []
+        }
+      ]
+    }
+  ],
+  "long_reads": []
+}
