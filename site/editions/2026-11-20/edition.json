@@ -1,0 +1,360 @@
+{
+  "date": "2026-11-20",
+  "lead": {
+    "key": "trump-xi-putin-shenzhen-summit-2026-11-19",
+    "category": "World & Nation",
+    "title": "Trump, Xi and Putin hold rare trilateral summit in Shenzhen",
+    "deck": "The meeting capped a whirlwind Asia trip and added a new diplomatic image to an already unsettled global order.",
+    "paragraphs": [
+      "President Donald Trump met Thursday in Shenzhen with Chinese leader Xi Jinping and Russian President Vladimir Putin in an unprecedented three-way summit on the sidelines of the Asia-Pacific Economic Cooperation gathering. AP reported that the session produced striking symbolism but limited immediate substance, with the three governments emphasizing dialogue on major-power relations and international conflicts rather than announcing a detailed agreement.",
+      "The meeting came as U.S. allies in Europe sought reassurance about parallel Trump administration talks over ending Russia’s war in Ukraine. AP reported that Jared Kushner and envoy Steve Witkoff were in Berlin to brief nearly 40 European leaders, while Russian officials continued to frame any broader peace arrangement on Moscow’s terms.",
+      "The trilateral followed several days of competing signals from Washington, Beijing and Moscow about trade, technology and security. Even before Trump returned to Washington, analysts were treating the summit less as a settled breakthrough than as a marker of how openly the three nuclear powers are testing new formats for dealing with one another."
+    ],
+    "source": "Associated Press",
+    "url": "https://apnews.com/article/25e17ec8d9c55fbff960d5631eaba71d",
+    "published": "2026-11-19",
+    "update_note": "UPDATE",
+    "new_development": "Trump, Xi and Putin actually held the previously previewed trilateral meeting on Nov. 19 in Shenzhen.",
+    "merged_keys": [
+      "trump-xi-putin-shenzhen-summit-2026-11-19"
+    ],
+    "additional_sources": []
+  },
+  "sections": [
+    {
+      "name": "World & Nation",
+      "stories": [
+        {
+          "key": "myanmar-icj-genocide-ruling-2026-11-20",
+          "category": "World & Nation",
+          "title": "U.N. court finds Myanmar responsible for genocide against the Rohingya",
+          "deck": "The decision is the first time the World Court has found a state responsible for genocide.",
+          "paragraphs": [
+            "The International Court of Justice ruled that Myanmar committed genocide against the Rohingya during the military’s 2017 campaign, a landmark judgment that AP said is the first of its kind against a state under the Genocide Convention. Rights groups called for fresh military and economic sanctions, while the court’s practical enforcement powers remain limited.",
+            "Myanmar’s government rejected the judgment Friday as unfair, while the opposition National Unity Government said it respected the court’s authority. In refugee camps in Bangladesh, Rohingya families celebrated the ruling but also said that justice alone would not resolve their statelessness and displacement."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/d32c2f2a58942b9a3edb81866a850e65",
+          "published": "2026-11-20",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "myanmar-icj-genocide-ruling-2026-11-20"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "ukraine-russian-retaliatory-strikes-2026-11-20",
+          "category": "World & Nation",
+          "title": "Russian strikes hit Ukraine after Putin vows retaliation for the Kerch Bridge attack",
+          "deck": "At least eight people were reported killed as diplomacy and battlefield pressure moved on separate tracks.",
+          "paragraphs": [
+            "Russia launched fresh bombardments across Ukraine, killing at least eight people, according to AP, after Putin said Moscow would retaliate for the recent attack on the Kerch Bridge. The strikes underscored how little immediate military restraint has accompanied the new round of high-level diplomacy around the war.",
+            "The attacks landed as European leaders met in Poland and Berlin to discuss possible postwar security arrangements and to seek clarity from the Trump administration. Public talk of negotiations has intensified, but the new strikes showed that fighting and coercive pressure remain central to the conflict."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/433e18f00cbd37a2a9da94e60fce0e07",
+          "published": "2026-11-20",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "ukraine-russian-retaliatory-strikes-2026-11-20"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "senate-iran-war-resolution-blocked-2026-11-19",
+          "category": "World & Nation",
+          "title": "Senate Republicans block another Democratic bid to end the war in Iran",
+          "deck": "The failed effort highlighted how difficult it remains for Congress to restrain the administration’s war policy.",
+          "paragraphs": [
+            "Senate Republicans on Thursday blocked the latest Democratic effort to force an end to the war in Iran, according to AP. The vote kept in place the administration’s room to continue military operations despite months of congressional criticism and a growing argument from Democrats that lawmakers have ceded too much war-making power to the executive branch."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/bcbb331cd6c847bf5d0bcb7446344714",
+          "published": "2026-11-20",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "senate-iran-war-resolution-blocked-2026-11-19"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "senate-energy-permitting-bill-2026-11-20",
+          "category": "World & Nation",
+          "title": "Senate approves bipartisan permitting bill aimed at power supply and data-center demand",
+          "deck": "Backers say the measure would speed major projects and shift some energy costs to large new users such as data centers.",
+          "paragraphs": [
+            "The Senate approved bipartisan legislation Thursday designed to accelerate reviews for power plants, transmission lines and other energy infrastructure, AP reported. The bill comes as electricity demand rises after years of relative stability, with lawmakers in both parties increasingly tying that pressure to data centers, electrification and industrial expansion.",
+            "Supporters said the measure would help bring more energy supply online and lower prices, while critics warned that faster permitting can weaken environmental review or advantage politically favored projects. The measure now heads to the House, where its coalition will face a different set of regional and ideological tests."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/b41c2017e4a9fe2e6de92ec77a4cdd0a",
+          "published": "2026-11-20",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "senate-energy-permitting-bill-2026-11-20"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Business & Economy",
+      "stories": [
+        {
+          "key": "wall-street-ai-selloff-2026-11-20",
+          "category": "Business & Economy",
+          "title": "Markets keep sliding as AI stocks lead another global selloff",
+          "deck": "Investors are weighing lofty valuations, rate fears and doubts about how long the boom can outrun earnings.",
+          "paragraphs": [
+            "U.S. and overseas stock markets fell again as AI and chip shares remained under pressure, with AP reporting that the Nasdaq composite dropped 2.3% on Thursday. The retreat has become a broader reassessment of whether the AI trade ran too far ahead of profits, even as high-profile companies continue posting big revenue numbers and attracting new capital.",
+            "Fresh economic data did little to calm nerves. AP reported that weekly jobless claims remained low by historical standards, suggesting the labor market is still holding up, while the average 30-year mortgage rate rose to 7.28%, ending a monthlong decline and adding to pressure on homebuyers."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/c4c3f4878b12989347f8a930ed813dad",
+          "published": "2026-11-20",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "wall-street-ai-selloff-2026-11-20"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Philadelphia & South Jersey",
+      "stories": [
+        {
+          "key": "philadelphia-reworld-whistleblower-2026-11-19",
+          "category": "Philadelphia & South Jersey",
+          "title": "At City Council hearing, former Reworld worker says the waste company misled regulators",
+          "deck": "The allegation surfaced a day after a Council committee stripped the Chester incinerator operator from a proposed city contract.",
+          "paragraphs": [
+            "A former Reworld employee told Philadelphia City Council that the company manipulated pollution-testing practices and fired him after he raised concerns, according to WHYY. Reworld denied the accusation. The testimony added a sharper edge to a City Hall fight over where Philadelphia should send its trash and how the city compares the environmental effects of landfilling and incineration.",
+            "The new allegations arrived after Council’s environment committee voted to remove Reworld from a bill authorizing three waste-disposal contracts. That left the Parker administration defending both its contractor selection process and its conclusion that incineration and landfilling carried roughly comparable impacts in the city’s evaluation."
+          ],
+          "source": "WHYY",
+          "url": "https://whyy.org/articles/philadelphia-waste-contractor-reworld-misled-regulators-former-employee-claims-during-city-council-hearing/",
+          "published": "2026-11-19",
+          "update_note": "UPDATE",
+          "new_development": "A former employee publicly alleged at a Nov. 19 Council hearing that Reworld misled regulators and manipulated pollution tests.",
+          "merged_keys": [
+            "philadelphia-reworld-whistleblower-2026-11-19"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "philadelphia-city-solicitor-confirmed-2026-11-19",
+          "category": "Philadelphia & South Jersey",
+          "title": "City Council confirms Monique Myatt Galloway as Philadelphia solicitor",
+          "deck": "The vote fills one of the administration’s central legal posts as City Hall heads into a busy end-of-year legislative stretch.",
+          "paragraphs": [
+            "Philadelphia City Council confirmed Monique Myatt Galloway as city solicitor on Thursday, according to the city. The solicitor oversees the Law Department and plays a central role in litigation, contracts, labor issues and the legal review of legislation moving through City Hall."
+          ],
+          "source": "City of Philadelphia",
+          "url": "https://www.phila.gov/2026-11-19-philadelphia-city-council-confirms-monique-myatt-galloway-as-city-solicitor/",
+          "published": "2026-11-19",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "philadelphia-city-solicitor-confirmed-2026-11-19"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "philadelphia-bus-station-layouts-2026-11-19",
+          "category": "Philadelphia & South Jersey",
+          "title": "Philadelphia advances three updated layouts for a permanent intercity bus station",
+          "deck": "Thirtyth and Arch remains the most popular option as planners refine designs for a long-term home for intercity buses.",
+          "paragraphs": [
+            "Philadelphia planners this month released updated concepts for three possible long-term intercity bus station sites: 30th and Arch, 15th and Vine, and 8th and Arch. A city planning update said the 30th-and-Arch option drew the most public support so far, with proximity to transit ranking as riders’ top priority.",
+            "The planning effort follows the city’s temporary reopening of the Filbert Street terminal this year after the long period of curbside operations. Billy Penn, via WHYY, reported this week that the latest public-feedback round again showed the 30th Street Station area as the leading option."
+          ],
+          "source": "City of Philadelphia",
+          "url": "https://www.phila.gov/2026-11-02-an-update-on-planning-philadelphias-intercity-bus-station/",
+          "published": "2026-11-02",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "philadelphia-bus-station-layouts-2026-11-19"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "temple-sexual-assault-policy-review-2026-11-19",
+          "category": "Philadelphia & South Jersey",
+          "title": "Temple panel scrutinizes how the university handles sexual-assault cases",
+          "deck": "The review follows renewed campus pressure after a high-profile fraternity rape lawsuit at Cornell.",
+          "paragraphs": [
+            "Temple University has formed a committee to review its sexual-assault policies and response practices, and students told WHYY they are cautiously optimistic that the process may lead to more accountability. The examination comes as universities across the region face intensifying scrutiny over how they investigate complaints, communicate outcomes and support students during misconduct cases."
+          ],
+          "source": "WHYY",
+          "url": "https://whyy.org/articles/temple-committee-takes-a-hard-look-at-the-universitys-handling-of-sexual-assault/",
+          "published": "2026-11-19",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "temple-sexual-assault-policy-review-2026-11-19"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "germantown-church-demolition-fight-2026-11-19",
+          "category": "Philadelphia & South Jersey",
+          "title": "Neighbors push to block demolition of a century-old Germantown church",
+          "deck": "Residents are seeking historic protection after a school proposed replacing the building with an athletic field.",
+          "paragraphs": [
+            "Residents in Germantown are trying to save a church more than a century old from demolition by pursuing historic designation for the property, WHYY reported. A nearby school wants to clear the site for an athletic field, setting up another Philadelphia clash between institutional expansion and neighborhood preservation."
+          ],
+          "source": "WHYY",
+          "url": "https://whyy.org/articles/germantown-neighbors-are-fighting-to-save-a-century-old-philadelphia-church-from-demolition/",
+          "published": "2026-11-19",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "germantown-church-demolition-fight-2026-11-19"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Sports",
+      "stories": [
+        {
+          "key": "flyers-senators-comeback-2026-11-19",
+          "category": "Sports",
+          "title": "Flyers erase a three-goal third-period hole and stun Ottawa in overtime, 6-5",
+          "deck": "Travis Konecny scored the winner 39 seconds into overtime as Philadelphia completed one of its wildest rallies in years.",
+          "paragraphs": [
+            "The Flyers trailed the Senators 5-2 early in the third period Thursday night before scoring three times in regulation and winning 6-5 in overtime at Ottawa. NHL.com reported that Travis Konecny had a goal and three assists, Cam York scored twice, and Jamie Drysdale tied the game late before Konecny ended it 39 seconds into overtime.",
+            "The comeback was Philadelphia’s seventh third-period rally from three goals down in franchise history, according to NHL.com, and its first such win since 2021. The result pushed the Flyers to 8-11-6 and gave them consecutive victories after Tuesday’s 4-3 home win over Buffalo."
+          ],
+          "source": "NHL.com",
+          "url": "https://www.nhl.com/news/philadelphia-flyers-ottawa-senators-game-recap-november-19-2026",
+          "published": "2026-11-20",
+          "update_note": "UPDATE",
+          "new_development": "Philadelphia followed Tuesday’s win over Buffalo with a far bigger result, rallying from down 5-2 to beat Ottawa in overtime on Nov. 19.",
+          "merged_keys": [
+            "flyers-senators-comeback-2026-11-19"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "sixers-magic-comeback-2026-11-19",
+          "category": "Sports",
+          "title": "Shorthanded Sixers rally from 17 down to beat Orlando, 121-116",
+          "deck": "Joel Embiid, VJ Edgecombe and LeBron James led Philadelphia to its best 16-game start in 26 years.",
+          "paragraphs": [
+            "The 76ers overcame a 17-point first-quarter deficit to beat Orlando 121-116 on Wednesday night, with Joel Embiid scoring 26 points, rookie VJ Edgecombe adding 24 and LeBron James finishing with 22, according to NBA.com’s AP game report. Philadelphia played without Tyrese Maxey and other starters but still improved to 13-3.",
+            "The win gave the Sixers their best start through 16 games since the 2000-01 season. Orlando led for most of the night, but Philadelphia’s depth and free-throw shooting changed the game in the second half."
+          ],
+          "source": "NBA.com",
+          "url": "https://www.nba.com/game/0022600261",
+          "published": "2026-11-19",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "sixers-magic-comeback-2026-11-19"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Technology & Industry",
+      "stories": [
+        {
+          "key": "anthropic-biggest-ipo-2026-11-19",
+          "category": "Technology & Industry",
+          "title": "Anthropic’s market debut becomes the biggest IPO on record",
+          "deck": "The listing lands amid a sharp selloff in AI stocks, underscoring the split between investor appetite and bubble fears.",
+          "paragraphs": [
+            "Anthropic completed what AP described as the biggest IPO ever, giving the Claude maker a market value above $1 trillion in its first trading day. The debut arrived as investors were already rethinking the durability of the AI boom, making the offering both a show of continuing appetite and a test of how much capital the sector can still command.",
+            "The listing adds another giant publicly traded player to an industry already reshaping demand for chips, power and data-center construction. It also lands in the middle of a political backlash that has tied AI investment to energy costs, industrial policy and labor-market anxiety."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/fdca56f1cda70c9908899057e7e591e6",
+          "published": "2026-11-20",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "anthropic-biggest-ipo-2026-11-19"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "voyager-one-light-day-2026-11-19",
+          "category": "Technology & Industry",
+          "title": "Voyager 1 checks in from more than a light-day away",
+          "deck": "The spacecraft continues returning data more than 49 years after launch.",
+          "paragraphs": [
+            "NASA’s Voyager 1 has now reached the symbolic milestone of more than one light-day from Earth, meaning its radio signals take over 24 hours to arrive. AP reported that the spacecraft is still communicating from interstellar space, extending one of the longest and most scientifically productive missions in the history of spaceflight."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/db9f5f8d9ec3a40f1f434446baf326b5",
+          "published": "2026-11-20",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "voyager-one-light-day-2026-11-19"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "nasa-ancient-ice-beyond-neptune-2026-11-18",
+          "category": "Technology & Industry",
+          "title": "NASA scientists report new clues about ancient ice beyond Neptune",
+          "deck": "A new agency research update points to the outer solar system as a record of early planetary history.",
+          "paragraphs": [
+            "NASA on Nov. 18 highlighted new findings about ancient ice in the region beyond Neptune, part of a continuing effort to use distant solar-system objects as records of the conditions that shaped the planets. The research update is not a breaking mission event, but it adds to a growing body of work treating trans-Neptunian objects as time capsules from the solar system’s earliest era."
+          ],
+          "source": "NASA",
+          "url": "https://science.nasa.gov/blogs/science-news/2026/11/",
+          "published": "2026-11-18",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "nasa-ancient-ice-beyond-neptune-2026-11-18"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Culture, Science & Curiosity",
+      "stories": [
+        {
+          "key": "philadelphia-orchestra-china-tour-summit-2026-11-19",
+          "category": "Culture, Science & Curiosity",
+          "title": "Philadelphia Orchestra’s China tour intersects with the Shenzhen summit",
+          "deck": "The ensemble’s long-running cultural role in U.S.-China relations met a new geopolitical backdrop this week.",
+          "paragraphs": [
+            "The Philadelphia Orchestra, long associated with cultural diplomacy in China, found itself in Shenzhen at the same time world leaders gathered there for the APEC summit and the Trump-Xi-Putin meeting. WHYY reported that the orchestra was wrapping up its Asia tour as the city became an unusually visible junction of statecraft and cultural exchange."
+          ],
+          "source": "WHYY",
+          "url": "https://whyy.org/news",
+          "published": "2026-11-19",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "philadelphia-orchestra-china-tour-summit-2026-11-19"
+          ],
+          "additional_sources": []
+        }
+      ]
+    }
+  ],
+  "long_reads": [
+    {
+      "title": "Philadelphia is deciding where to send its trash",
+      "description": "WHYY’s deeper look at how the city compared landfill and incinerator options before the Reworld contract fight escalated.",
+      "source": "WHYY",
+      "url": "https://whyy.org/articles/philadelphia-is-deciding-where-to-send-its-trash-heres-how-it-decided-landfilling-and-incineration-have-essentially-equal-impact/"
+    }
+  ]
+}
