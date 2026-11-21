@@ -1,0 +1,398 @@
+{
+  "date": "2026-11-21",
+  "lead": {
+    "key": "cop31-overtime-talks-2026-11-21",
+    "category": "World",
+    "title": "Climate summit runs into overtime as delegates haggle over a final deal",
+    "deck": "Negotiators at the U.N. climate conference in Turkey pushed past the scheduled close, with work crews already packing up parts of the venue while delegates argued over the language and ambition of a final agreement.",
+    "paragraphs": [
+      "Talks at the COP31 summit in Antalya stretched into Saturday after countries failed to finish a closing deal on schedule. Associated Press reported that negotiators were still wrestling with how the world should respond to intensifying warming, including the balance between emissions cuts, adaptation and support for countries already hit by floods, heat and other disasters.",
+      "The overtime session underscored how climate diplomacy has become harder even as the physical impacts of warming grow more visible. The next annual summit is already set for Addis Ababa in November 2027, but the immediate question in Antalya was whether delegates could salvage a consensus text rather than leave with a watered-down statement or open fractures among major blocs."
+    ],
+    "source": "Associated Press",
+    "url": "https://apnews.com/article/b54eebcade92e5ee4c513b9a5b2192a7",
+    "published": "2026-11-21",
+    "update_note": "",
+    "new_development": ""
+  },
+  "sections": [
+    {
+      "name": "Nation & World",
+      "stories": [
+        {
+          "key": "trump-iran-deal-comments-2026-11-20",
+          "category": "National",
+          "title": "Trump says Iran wants an end to fighting but rejects what he called a bad deal",
+          "deck": "The president’s comments suggested diplomacy is still being discussed even as concern grows about renewed escalation.",
+          "paragraphs": [
+            "President Donald Trump said Friday that Tehran wants an agreement to end hostilities, but he told reporters the terms he has heard so far are not acceptable. The remarks came amid continuing anxiety in Washington over whether the U.S.-Iran conflict could return to broader war after Trump had previously suggested the fighting was largely over.",
+            "The new public stance matters because it indicates the administration is talking about a negotiated off-ramp while also signaling it is not ready to endorse one. Trump’s comments followed recent Iranian strikes and arrived as Congress, now heading toward a changed balance of power after the midterms, continues to debate how much authority and money the war effort should receive."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/8fd6dcd6dc4a1a77437cedc4567fbee8",
+          "published": "2026-11-20",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "senate-ai-select-committee-push-2026-11-20",
+          "category": "National",
+          "title": "Senate Democrats discuss a new committee to move faster on AI rules",
+          "deck": "A proposal for a select committee reflects pressure to turn years of AI debate into a more formal lawmaking structure.",
+          "paragraphs": [
+            "Senate Democrats are weighing whether to create a select committee on artificial intelligence as they prepare for the next Congress, according to the AP. The idea is to speed work on guardrails, oversight and monitoring after two years in which Republicans largely emphasized innovation and competitiveness over new restrictions.",
+            "The proposal shows how AI policy is moving from broad hearings toward questions of congressional machinery and jurisdiction. It also comes after the Biden administration’s 2023 executive order on AI oversight was rescinded when Trump returned to office, leaving lawmakers to decide whether Congress will fill the gap with statute."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/047d0ab21237984701decd9ed5ced403",
+          "published": "2026-11-20",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "senate-energy-permitting-bill-2026-11-20-house-next",
+          "category": "National",
+          "title": "Permitting and power bill heads to the House after Senate approval",
+          "deck": "The measure would speed reviews for energy projects and make data centers bear more of their electricity costs.",
+          "paragraphs": [
+            "The Senate approved bipartisan legislation Thursday aimed at accelerating reviews for power plants, transmission lines and other energy infrastructure, while also requiring data centers to pay more directly for the electricity demands they impose. The bill passed 62-33 and now moves to the House.",
+            "The legislation links two of the year’s major policy pressures: rising power demand and the explosive growth of computing infrastructure. Supporters say faster approvals are needed to expand supply and lower prices; critics have argued over environmental tradeoffs and over how much leverage Congress should hand the administration over stalled grants and permits."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/b41c2017e4a9fe2e6de92ec77a4cdd0a",
+          "published": "2026-11-20",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "us-jobless-claims-2026-11-19",
+          "category": "Economy",
+          "title": "Weekly jobless claims edge up but remain low by historical standards",
+          "deck": "The labor market is still showing few signs of broad layoffs even as hiring remains subdued.",
+          "paragraphs": [
+            "New applications for unemployment benefits rose to 203,000 last week from a revised 202,000, the Labor Department said Thursday. The four-week average climbed to 197,750, a level that still points to limited layoffs across most of the economy.",
+            "AP reported that the data fit a broader pattern of a labor market that is solid but not especially dynamic: employers are mostly holding onto workers, consumer spending has stayed firm, and investment tied to data centers is still supporting growth, but hiring remains relatively sluggish."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/ea6affa07224e7be7cfafd66ae3235db",
+          "published": "2026-11-19",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "trump-memorial-arch-second-block-2026-11-20",
+          "category": "National",
+          "title": "Second federal judge blocks Trump administration’s memorial arch project in Washington",
+          "deck": "The new order leaves the proposed 250-foot structure on indefinite hold while the legal fight continues.",
+          "paragraphs": [
+            "A second federal judge on Friday blocked construction of the Trump administration’s planned memorial arch in Washington, D.C., according to plaintiffs’ lawyers and the Associated Press. The ruling keeps the project from moving forward while challenges proceed in court.",
+            "The order adds another legal obstacle for a high-profile administration-backed project that critics say should not move ahead without surviving closer judicial scrutiny. It also suggests the government could face a longer fight if it wants to revive the proposal."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/f7b9b0a0480481505038d007bf270cd9",
+          "published": "2026-11-20",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "xi-apec-global-influence-2026-11-20",
+          "category": "World",
+          "title": "After the Shenzhen summit, Xi presses China’s case as a central global power",
+          "deck": "The optics of hosting Trump and Putin at APEC added to Beijing’s effort to showcase influence far beyond trade.",
+          "paragraphs": [
+            "Chinese leader Xi Jinping used this week’s APEC gathering in Shenzhen to project China as a central player in global trade, technology and diplomacy. AP reported that the summit, which included a rare trilateral session with Trump and Vladimir Putin, offered Beijing a stage to highlight both economic reach and political symbolism.",
+            "That broad summit story dominated the week’s foreign-policy agenda and was already covered in prior editions. The fresher development now is the post-summit framing: Chinese officials and state messaging are emphasizing the diplomatic imagery and China’s role in shaping an increasingly contested regional order."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/1537a3c561e41a1f8545490a3d29d376",
+          "published": "2026-11-20",
+          "update_note": "UPDATE",
+          "new_development": "Chinese messaging after the Shenzhen meetings shifted from the event itself to a sustained effort to present the summit as evidence of Beijing’s wider global influence."
+        }
+      ]
+    },
+    {
+      "name": "South Jersey, Philadelphia & Region",
+      "stories": [
+        {
+          "key": "philadelphia-election-certification-meeting-2026-11-20",
+          "category": "Local",
+          "title": "Philadelphia election board schedules certification meeting for Monday",
+          "deck": "The City Commissioners said they will meet publicly at noon on Nov. 23 as post-election work continues.",
+          "paragraphs": [
+            "The Philadelphia City Commissioners, sitting as the county Board of Elections, posted notice Friday that they will hold an election certification meeting on Monday, Nov. 23, at noon. The announcement comes as counties complete formal steps after the 2026 general election.",
+            "Certification meetings are usually procedural, but they provide the public record for the final local stage of canvassing and approval. The notice follows an earlier canvass meeting this week and gives campaigns and observers a specific timetable for Philadelphia’s next election action."
+          ],
+          "source": "Philadelphia City Commissioners",
+          "url": "https://vote.phila.gov/news/2026/11/20/2026-general-election-notice-of-election-certification-meeting/",
+          "published": "2026-11-20",
+          "update_note": "UPDATE",
+          "new_development": "Election officials posted the next formal step in the process: a public certification meeting set for Monday, November 23, 2026."
+        },
+        {
+          "key": "philadelphia-marathon-closures-2026-11-20",
+          "category": "Local",
+          "title": "Philadelphia Marathon weekend brings broad Center City and Fairmount closures",
+          "deck": "Saturday’s half marathon and 8K are shutting down major roads before Sunday’s full marathon follows.",
+          "paragraphs": [
+            "Road and parking restrictions tied to Philadelphia Marathon weekend expanded Friday, with closures affecting the Benjamin Franklin Parkway, Kelly Drive and numerous Center City streets. 6abc reported that no traffic will be permitted into Center City during parts of Saturday’s race window, with limited local access for the Art Museum area.",
+            "The race weekend had already been previewed in earlier editions, but the current phase is operational: closures are now in effect and travel patterns are changing across the city. Saturday features the half marathon and 8K, with the full marathon to follow Sunday."
+          ],
+          "source": "6abc Philadelphia",
+          "url": "https://6abc.com/amp/post/philadelphia-marathon-race-weekend-road-closures-parking-restrictions-announced-what-know/20045045/",
+          "published": "2026-11-20",
+          "update_note": "UPDATE",
+          "new_development": "Street restrictions moved from planning into active weekend closures, including traffic limits into Center City on Saturday."
+        },
+        {
+          "key": "philadelphia-clean-block-winners-2026-11-20",
+          "category": "Local",
+          "title": "City names winners of Philadelphia More Beautiful Committee clean-block contest",
+          "deck": "The annual awards spotlight neighborhood groups and block captains recognized for upkeep and beautification work.",
+          "paragraphs": [
+            "Philadelphia announced the 2026 Clean Block Contest winners on Friday through the Philadelphia More Beautiful Committee. The city’s annual program recognizes neighborhood blocks for appearance, maintenance and volunteer organizing.",
+            "The contest is a small civic story, but it captures a familiar kind of local municipal work: low-budget, resident-driven upkeep that shapes how neighborhoods look block by block. The city posted the awards as part of its official news feed on Friday."
+          ],
+          "source": "City of Philadelphia",
+          "url": "https://www.phila.gov/the-latest/",
+          "published": "2026-11-20",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "philly-holiday-support-parks-rec-2026-11-18",
+          "category": "Local",
+          "title": "Parks & Rec lists turkey, coat and holiday-support distributions around Philadelphia",
+          "deck": "Several sites are offering free Thanksgiving and cold-weather assistance through this weekend.",
+          "paragraphs": [
+            "Philadelphia Parks & Recreation published a list of sites distributing free turkeys, coats and related holiday support between Nov. 20 and Nov. 21. The events are spread across multiple recreation centers and community locations.",
+            "The notice serves as a practical snapshot of seasonal aid activity as charities, city departments and neighborhood groups intensify Thanksgiving support efforts."
+          ],
+          "source": "Philadelphia Parks & Recreation",
+          "url": "https://www.phila.gov/2026-11-18-free-turkeys-coats-and-holiday-support-across-philly-parks-rec-sites/",
+          "published": "2026-11-18",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "new-jersey-real-id-waits-improve-2026-11",
+          "category": "New Jersey",
+          "title": "New Jersey says REAL ID appointment waits have fallen sharply before holiday travel",
+          "deck": "State officials say average wait times are now about three days, down from early-year bottlenecks.",
+          "paragraphs": [
+            "New Jersey’s governor’s office said this month that REAL ID appointments are now widely available at Motor Vehicle Commission locations, with average waits of about three days. The administration contrasted that with an average 73-day wait at the start of 2026.",
+            "The timing matters because Thanksgiving travel is close and identification requirements can create last-minute pressure. The update came in the governor’s 2026 press archive and reflects a measurable improvement in service capacity rather than a new law or executive action."
+          ],
+          "source": "Office of the Governor of New Jersey",
+          "url": "https://nj.gov/governor/news/2026/approved/news_archive.shtml",
+          "published": "2026-11-01",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "new-jersey-lieutenant-governor-emehelu-2026-11-09",
+          "category": "New Jersey",
+          "title": "New Jersey’s new lieutenant governor and secretary of state takes office",
+          "deck": "Gov. Mikie Sherrill’s appointment of Shirley U. Emehelu marked a first for the state’s top two offices.",
+          "paragraphs": [
+            "Shirley U. Emehelu assumed office as New Jersey lieutenant governor and secretary of state on Nov. 9 after being appointed by Gov. Mikie Sherrill. The governor’s office said the move means New Jersey is being led by women in both its top offices for the first time in state history.",
+            "The appointment is not a Friday-night surprise, but it remains one of the more consequential recent personnel changes in Trenton and shapes the state’s political leadership heading into 2027."
+          ],
+          "source": "Office of the Governor of New Jersey",
+          "url": "https://www.nj.gov/governor/news/2026/20261109a.shtml",
+          "published": "2026-11-09",
+          "update_note": "",
+          "new_development": ""
+        }
+      ]
+    },
+    {
+      "name": "Business, Technology & Policy",
+      "stories": [
+        {
+          "key": "anthropic-ipo-close-2026-11-20",
+          "category": "Technology",
+          "title": "Anthropic says it has closed its IPO and underwriters took the full share option",
+          "deck": "The AI company said its Class A shares began trading on Nasdaq on Nov. 19 under the ticker ANT.",
+          "paragraphs": [
+            "Anthropic announced Friday that it closed its initial public offering at $83 a share and that underwriters fully exercised their option to purchase additional shares. The company said the offering covered 1.127 billion shares in total and that its stock began trading on the Nasdaq Global Select Market on Nov. 19 under the symbol ANT.",
+            "The closing statement turns this week’s offering from a pricing story into a completed financing event. It also reinforces how heavily capital-intensive frontier AI has become, with model developers using public markets and long-term compute commitments to fund expansion."
+          ],
+          "source": "Anthropic",
+          "url": "https://www.anthropic.com/news/ipo-close",
+          "published": "2026-11-20",
+          "update_note": "UPDATE",
+          "new_development": "Anthropic moved beyond pricing its IPO and said the deal has now formally closed, including the full underwriters’ option."
+        },
+        {
+          "key": "openai-product-releases-gpt6-cyber-2026-11",
+          "category": "Technology",
+          "title": "OpenAI’s product-release page highlights a new cybersecurity model",
+          "deck": "The company says GPT-6 Cyber is designed for authorized vulnerability finding and remediation work.",
+          "paragraphs": [
+            "OpenAI’s product releases page now features GPT-6 Cyber, which the company describes as a cybersecurity model for identifying exploitable vulnerabilities and helping develop fixes while staying within authorized scope.",
+            "Because the item appears on OpenAI’s official releases page rather than as an outside report, it is best read as a product positioning statement. It adds to the recent pattern of AI labs breaking out specialized models for enterprise and high-trust use cases."
+          ],
+          "source": "OpenAI",
+          "url": "https://openai.com/news/product-releases/?display=list",
+          "published": "2026-11-21",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "anthropic-frontier-academy-2026-11-20",
+          "category": "Technology",
+          "title": "Anthropic says it will spend $100 million on a training program for deployed AI engineers",
+          "deck": "The company said the effort aims to train 10,000 engineers by the end of 2027.",
+          "paragraphs": [
+            "Alongside its IPO news, Anthropic said it is investing $100 million in what it calls Claude Frontier Academy, a training initiative intended to prepare 10,000 deployed engineers by the end of 2027. The company said early cohorts already include participants connected to consulting firms, banks and other large organizations.",
+            "The announcement illustrates how AI firms are not only selling models but also trying to shape the labor market and implementation layer around them."
+          ],
+          "source": "Anthropic",
+          "url": "https://www.anthropic.com/news",
+          "published": "2026-11-20",
+          "update_note": "",
+          "new_development": ""
+        }
+      ]
+    },
+    {
+      "name": "Sports",
+      "stories": [
+        {
+          "key": "eagles-steelers-week11-preview-2026-11-22",
+          "category": "Sports",
+          "title": "Eagles host Steelers on Sunday with kickoff set for 1 p.m. Eastern",
+          "deck": "Philadelphia’s next game is a Week 11 home meeting with Pittsburgh after the league adjusted parts of the weekend schedule.",
+          "paragraphs": [
+            "The NFL’s Week 11 schedule lists Pittsburgh at Philadelphia for Sunday, Nov. 22, at 1 p.m. ET. A league schedule-change notice released earlier this month confirmed the Steelers-Eagles game in that Sunday afternoon slot.",
+            "The matchup arrives with Philadelphia trying to stabilize a difficult season and Pittsburgh bringing a 6-3 record into the weekend, according to ESPN’s schedule listings. The game is the area’s main pro football event of the weekend."
+          ],
+          "source": "NFL",
+          "url": "https://media.nfl.com/content/dam/communications/documents/2026/Week%2011%20Schedule%20Change.pdf",
+          "published": "2026-11-09",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "sixers-magic-comeback-2026-11-19",
+          "category": "Sports",
+          "title": "Sixers erase a 17-point deficit to beat Orlando, 121-116",
+          "deck": "Philadelphia’s road win pushed the club to 13-3 and extended a four-game winning streak.",
+          "paragraphs": [
+            "Philadelphia rallied from 17 points down to beat the Orlando Magic 121-116 on Wednesday night. The Sixers’ official game story said Joel Embiid scored 26 points, VJ Edgecombe added a season-high 24 and LeBron James had 22 as the team won without Tyrese Maxey and Jaylen Brown.",
+            "The result kept up one of the league’s strongest early records and, according to the team, improved Philadelphia to 11-0 in clutch-time games. NBA.com’s schedule also lists the final score and Philadelphia’s next game Saturday against Milwaukee."
+          ],
+          "source": "Philadelphia 76ers",
+          "url": "https://www.nba.com/sixers/news/shorthanded-sixers-earn-17-point-comeback-win-in-orlando",
+          "published": "2026-11-19",
+          "update_note": "UPDATE",
+          "new_development": "Since the previous edition, the Sixers’ Orlando comeback was followed by confirmation of their 13-3 record and a Saturday home date with Milwaukee on the official schedule."
+        },
+        {
+          "key": "flyers-senators-comeback-2026-11-20",
+          "category": "Sports",
+          "title": "Flyers storm back from three goals down and beat Ottawa 6-5 in overtime",
+          "deck": "Travis Konecny finished the comeback 39 seconds into overtime after Philadelphia trailed 5-2 in the third.",
+          "paragraphs": [
+            "The Flyers rallied from a 5-2 third-period deficit to beat the Senators 6-5 in overtime Thursday night in Ottawa. NHL.com said Travis Konecny had a goal and three assists, Cam York scored twice and Jamie Drysdale tied the game late before Konecny ended it 39 seconds into overtime.",
+            "The win gave Philadelphia consecutive victories and one of its wildest results of the season. The league recap called it the franchise’s first three-goal third-period comeback win since 2021."
+          ],
+          "source": "NHL.com",
+          "url": "https://www.nhl.com/news/philadelphia-flyers-ottawa-senators-game-recap-november-19-2026",
+          "published": "2026-11-20",
+          "update_note": "UPDATE",
+          "new_development": "The Flyers followed their earlier comeback run with an even bigger rally, overcoming a three-goal third-period deficit to win in overtime."
+        }
+      ]
+    },
+    {
+      "name": "Science, Environment & Curiosity",
+      "stories": [
+        {
+          "key": "nasa-california-3d-wildfire-maps-2026-11-18",
+          "category": "Science",
+          "title": "NASA researchers build statewide 3D maps of California to gauge wildfire risk",
+          "deck": "The agency says the new topography work reaches down to the scale of individual trees.",
+          "paragraphs": [
+            "NASA said this week that its researchers have created detailed 3D topography maps for all of California as part of work to assess wildfire risk. The agency described the maps as fine-grained enough to capture features down to the scale of a single tree.",
+            "The project reflects the growing role of remote sensing and high-resolution terrain analysis in fire planning, especially as Western states face longer fire seasons and larger risk footprints."
+          ],
+          "source": "NASA Science",
+          "url": "https://science.nasa.gov/blogs/science-news/2026/11/",
+          "published": "2026-11-18",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "voyager-one-light-day-apod-2026-11-20",
+          "category": "Curiosity",
+          "title": "NASA marks Voyager 1’s one-light-day milestone with Astronomy Picture of the Day",
+          "deck": "The agency said the spacecraft reached the distance mark on Nov. 18, nearly 50 years after launch.",
+          "paragraphs": [
+            "NASA’s Astronomy Picture of the Day for Friday highlighted Voyager 1’s new distance milestone: one light-day from Earth. The post said the spacecraft reached that point on Nov. 18 at 10:16:07 UTC, roughly 26 billion kilometers away.",
+            "The image essay turned a technical measurement into a simple human scale. A flashlight signal sent from Earth now takes a full day to reach humanity’s most distant spacecraft."
+          ],
+          "source": "NASA Science",
+          "url": "https://science.nasa.gov/image-article/apod-2026-november-20-v-g-r/",
+          "published": "2026-11-20",
+          "update_note": "UPDATE",
+          "new_development": "NASA provided an exact timestamp for Voyager 1 reaching one light-day from Earth and featured the milestone in Friday’s APOD entry."
+        },
+        {
+          "key": "noaa-southeast-flooding-and-west-snow-2026-11-20",
+          "category": "Environment",
+          "title": "Federal forecasters warn of Florida flooding while snow continues in the interior West",
+          "deck": "NOAA’s Weather Prediction Center says a developing coastal low could bring heavy rain, wind and erosion along the Southeast coast this weekend.",
+          "paragraphs": [
+            "The Weather Prediction Center said Friday that dangerous flash flooding was possible through the night along parts of east-central and northeast Florida. Its short-range discussion also warned that a developing coastal low could bring heavy rain, gusty winds, coastal flooding and beach erosion to the Southeast coast over the weekend.",
+            "At the same time, the center said snow was continuing across parts of the northern Rockies and Intermountain West, with some lower elevations seeing their first snow of the season. The national hazards chart for Saturday also showed high-risk excessive rainfall and high-risk heavy snow areas in different parts of the country."
+          ],
+          "source": "NOAA Weather Prediction Center",
+          "url": "https://www.wpc.ncep.noaa.gov/discussions/hpcdiscussions.php?disc=pmdspd&os=io.",
+          "published": "2026-11-20",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "surprise-hormuz-swim-wildlife-2026-11-21",
+          "category": "Delight",
+          "title": "An endurance swimmer entered the Strait of Hormuz to draw attention to wildlife during wartime",
+          "deck": "British swimmer Lewis Pugh used an unusual and risky setting to make an environmental appeal.",
+          "paragraphs": [
+            "British endurance swimmer Lewis Pugh swam in the Strait of Hormuz to call attention to the effect of the Iran war on marine life and wildlife in the region, the AP reported Saturday. The strait is better known to most readers as an energy chokepoint and military flashpoint than as an environmental stage.",
+            "The event landed as one of the stranger dispatches of the morning: part stunt, part protest, and part reminder that war zones are also ecosystems."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/e772be52a06d75699594a7396ec78f25",
+          "published": "2026-11-21",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "south-africa-phumzile-mlambo-ngcuka-dies-2026-11-21",
+          "category": "Obituary",
+          "title": "Phumzile Mlambo-Ngcuka, former South African deputy president and U.N. Women chief, dies at 71",
+          "deck": "Her career linked South African politics and international gender-equality advocacy.",
+          "paragraphs": [
+            "Phumzile Mlambo-Ngcuka, South Africa’s first female deputy president and a former U.N. Women executive director, has died at 71, the South African government announced Friday. AP reported the death early Saturday.",
+            "Her public life spanned national power struggles in South Africa and later leadership in global institutions, making her one of the more consequential political figures to appear in Saturday’s overseas news cycle."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/ce72144fd0991768e9cb466daa95dfe5",
+          "published": "2026-11-21",
+          "update_note": "",
+          "new_development": ""
+        }
+      ]
+    }
+  ],
+  "long_reads": [
+    {
+      "title": "Managing frontier AI risk: From training to deployment",
+      "description": "OpenAI’s own account of how it says it evaluates and governs powerful models before and after release.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/managing-frontier-ai-risk/"
+    }
+  ]
+}
