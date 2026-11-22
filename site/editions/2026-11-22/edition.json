@@ -1,0 +1,416 @@
+{
+  "date": "2026-11-22",
+  "lead": {
+    "key": "cop31-final-draft-fossil-fuels-2026-11-22",
+    "category": "World",
+    "title": "Climate talks stall as COP31 draft leaves out fossil fuels",
+    "deck": "A proposed final agreement at the U.N. climate summit in Turkey has drawn immediate objections because it does not mention fossil fuels or a shift away from coal, oil and gas.",
+    "paragraphs": [
+      "The draft, circulated early Sunday in Antalya, instead emphasizes raising electricity’s share of final energy use to 35% by 2035 and leaves unresolved how much wealthy countries should provide for adaptation and climate finance. Russia backed leaving out explicit fossil-fuel language, while several vulnerable countries and advocacy groups said the text fell short of prior climate commitments.",
+      "The dispute came after the summit had already run past its scheduled close, extending a familiar pattern of late-stage bargaining at recent U.N. climate meetings. Negotiators were still haggling Sunday, leaving uncertain whether countries would accept a thinner consensus document or force another rewrite before the conference adjourns.",
+      "The negotiations come as the International Energy Agency says the upheaval in oil flows and prices has accelerated changes in how countries think about energy security and electrification. The agency described the disruption as the greatest energy shock in history, with consequences likely to persist alongside climate pressures."
+    ],
+    "source": "Associated Press",
+    "url": "https://apnews.com/article/f6e36c4caf13ec6fed57c9f077cbd067",
+    "published": "2026-11-22",
+    "update_note": "UPDATE",
+    "new_development": "A draft final agreement was circulated Sunday and immediately challenged because it omitted any reference to fossil fuels.",
+    "merged_keys": [
+      "cop31-final-draft-fossil-fuels-2026-11-22",
+      "iea-energy-shock-no-going-back-2026-11-19"
+    ],
+    "additional_sources": [
+      {
+        "source": "Associated Press",
+        "url": "https://apnews.com/article/a53b5522e557afd5370c08aee351032b",
+        "published": "2026-11-19"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "name": "World",
+      "stories": [
+        {
+          "key": "ukraine-kaliningrad-alert-russian-cargo-ship-fire-2026-11-22",
+          "category": "World",
+          "title": "Air alert sounds in Kaliningrad after drone strike and cargo-ship fire",
+          "deck": "Russian officials reported an air alert in Kaliningrad after online claims of drone activity near a major naval base, while a separate strike set a cargo ship ablaze in the Gulf of Finland.",
+          "paragraphs": [
+            "The developments added to a volatile week around Russia’s Baltic approaches as the war in Ukraine continued to spill into infrastructure and shipping routes beyond the main front. AP reported that the cargo vessel was bound for Kaliningrad, home to a key Baltic Fleet base.",
+            "The incidents followed Russian strikes on Ukrainian cities, including a Saturday attack on Kryvyi Rih, President Volodymyr Zelenskyy’s hometown, that local officials said killed two people and wounded dozens. The widening geography of strikes underscores how the war remains dangerous far from the trench lines."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/14fecc1c55d601bb9f5b5fc8c9fb0b94",
+          "published": "2026-11-22",
+          "update_note": "UPDATE",
+          "new_development": "A rare air alert was issued in Kaliningrad and a Russian cargo ship bound for the exclave caught fire after a drone strike.",
+          "merged_keys": [
+            "ukraine-kaliningrad-alert-russian-cargo-ship-fire-2026-11-22"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "myanmar-rohingya-icj-sanctions-push-2026-11-20",
+          "category": "World",
+          "title": "Rights groups press for sanctions after world court’s Rohingya genocide ruling",
+          "deck": "Advocates are urging military and economic sanctions on Myanmar after the International Court of Justice found the state responsible for genocide against the Rohingya.",
+          "paragraphs": [
+            "The ruling itself was covered earlier in the week; the new development is the push for enforcement and accountability after Friday’s reaction from rights groups and U.N. advocates. AP reported that while the ICJ’s decisions are binding, the court has no direct enforcement arm beyond referring noncompliance to the United Nations.",
+            "That leaves the next steps in the hands of governments and the Security Council, where China and Russia could block stronger action. The ruling still adds legal force to years of documentation about the 2017 campaign that drove hundreds of thousands of Rohingya into Bangladesh."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/d32c2f2a58942b9a3edb81866a850e65",
+          "published": "2026-11-20",
+          "update_note": "UPDATE",
+          "new_development": "Following the court ruling, rights groups have shifted to demanding concrete sanctions and other enforcement steps.",
+          "merged_keys": [
+            "myanmar-rohingya-icj-sanctions-push-2026-11-20"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "iran-tanker-strikes-missile-launchers-2026-11-21",
+          "category": "World",
+          "title": "Iran reports new missile display as tanker attacks add to regional tension",
+          "deck": "Three tankers were struck as Iran unveiled a new missile launcher at an underground facility and signaled it still has capacity to escalate if fighting with the U.S. and Israel intensifies.",
+          "paragraphs": [
+            "AP’s regional roundup on Saturday said the attacks and weapons display came amid continuing instability across Middle East shipping lanes. Oil flows have continued, but markets and governments remain sensitive to any sign that attacks could again disrupt passage through the Strait of Hormuz and nearby routes.",
+            "The latest incidents come as the Trump administration says Tehran wants a deal but has not accepted terms Washington would support. For shipping companies and importers, even limited attacks can raise insurance costs and complicate routing."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/29159a6f3365ff447c0ccbd1d7260f75",
+          "published": "2026-11-21",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "iran-tanker-strikes-missile-launchers-2026-11-21"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "U.S. Politics",
+      "stories": [
+        {
+          "key": "trump-contractors-congress-executive-order-2026-11-21",
+          "category": "U.S. Politics",
+          "title": "Trump orders federal contractors to clear some congressional responses with White House",
+          "deck": "A new executive order directs contractors and subcontractors to consult the administration about congressional inquiries and to withhold material the White House considers privileged.",
+          "paragraphs": [
+            "The order is the latest move in advance of a Democratic-controlled Congress taking office in January after the midterms. It sets up a fresh separation-of-powers fight over oversight, document production and executive privilege.",
+            "The directive applies beyond federal agencies themselves, potentially affecting how outside firms that do business with the government respond to subpoenas and information requests. Democrats are expected to test the order quickly once they assume committee gavels."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/9546e1d7acdf3e65b654d1c5162cb0bd",
+          "published": "2026-11-21",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "trump-contractors-congress-executive-order-2026-11-21"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Economy",
+      "stories": [
+        {
+          "key": "us-economy-inflation-consumer-confidence-weekahead-2026-11-21",
+          "category": "Economy",
+          "title": "Inflation data and consumer sentiment loom over a market in correction territory",
+          "deck": "A shortened holiday week will bring fresh readings on consumer confidence, jobless claims and inflation as Wall Street tries to steady itself after a broad selloff.",
+          "paragraphs": [
+            "The Conference Board’s November consumer-confidence survey is due Tuesday, with weekly unemployment claims shifted to Wednesday ahead of Thanksgiving. The backdrop remains a trade-disrupted and energy-shocked economy in which price pressures have spread broadly, even as overall growth has held up better than many forecasters expected.",
+            "The data will help show whether households are absorbing higher costs or pulling back further after recent signs of softer retail spending. Markets have also been digesting a sharp retreat in richly valued AI shares, and the recent selloff has pushed the stock market into correction territory.",
+            "Analysts have tied much of the drop to a reckoning over heavy investment in artificial intelligence after an extended run-up in valuations. Historically, corrections that stop short of bear markets have taken about 130 days on average to bottom, according to data cited by AP from CFRA."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/6c207f517113ab0e65c60ac3ee66440e",
+          "published": "2026-11-21",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "us-economy-inflation-consumer-confidence-weekahead-2026-11-21",
+            "stock-market-correction-ai-selloff-context-2026-11-21"
+          ],
+          "additional_sources": [
+            {
+              "source": "Associated Press",
+              "url": "https://apnews.com/article/e69b0efcc423bc91871c1afabf36742d",
+              "published": "2026-11-21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Local Government",
+      "stories": [
+        {
+          "key": "philadelphia-dhs-hearing-shortcomings-2026-11-20",
+          "category": "Local Government",
+          "title": "Council hearings turn tense over foster-care failures and waste contracts",
+          "deck": "Philadelphia officials faced sharp questioning over the death of a 10-year-old girl in foster care, while lawmakers also moved to strip Reworld from a proposed trash contract package.",
+          "paragraphs": [
+            "At a hearing updated Friday evening, Commissioner Kimberly Ali said a gap in Pennsylvania’s resource-family registry helped allow Carprice Williams to care for Malayshia Allford despite earlier warning signs. Councilmember Cindy Bass rejected the explanation as insufficient, calling the death preventable and a failure on a colossal scale.",
+            "Williams has been charged with murder after the girl was found dead in a car in Lindenwold, New Jersey. Council members also pressed the administration on foster-home oversight, caseloads and whether more money should go toward keeping families together before children enter care.",
+            "In a separate move, a Council committee refused to advance a new waste-disposal deal with Reworld, removing the company from legislation authorizing three contracts. The vote marked a setback for Mayor Cherelle Parker’s sanitation plan and for Reworld, whose Chester incinerator has long drawn environmental-justice objections."
+          ],
+          "source": "WHYY",
+          "url": "https://whyy.org/articles/philadelphia-city-council-human-service-department-hearing/",
+          "published": "2026-11-20",
+          "update_note": "UPDATE",
+          "new_development": "City Council held the promised hearing, and DHS said a registry loophole appears to have been part of how the foster placement occurred.",
+          "merged_keys": [
+            "philadelphia-dhs-hearing-shortcomings-2026-11-20",
+            "philadelphia-reworld-contract-committee-rejects-2026-11-19"
+          ],
+          "additional_sources": [
+            {
+              "source": "WHYY",
+              "url": "https://whyy.org/articles/philadelphia-city-council-committee-rejects-reworld-incinerator-contract/",
+              "published": "2026-11-19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transportation",
+      "stories": [
+        {
+          "key": "philadelphia-marathon-weekend-weather-closures-2026-11-21",
+          "category": "Transportation",
+          "title": "Marathon weekend, Eagles game and wet weather converge in Philadelphia",
+          "deck": "Philadelphia entered a packed weekend of marathon closures and Sunday football traffic with showers, drizzle and fog in the regional forecast.",
+          "paragraphs": [
+            "6abc reported Friday that road closures were already reshaping movement around Center City ahead of marathon events, with vendors hoping crowds would offset the inconvenience. Sunday also brings the Eagles-Steelers game, adding another large draw to a transportation network already under strain.",
+            "Forecast data for Medford show drizzle and areas of fog Sunday morning, with spotty showers and a high near 65 degrees before drier and warmer weather Monday. The weather should improve for early Thanksgiving-week travel by Tuesday, when sunshine and cooler temperatures are expected."
+          ],
+          "source": "6abc / Weather tool",
+          "url": "https://latency.6abc.com/post/philadelphia-gears-busy-weekend-marathon-eagles-game-possible-stormy-weather/20061482/",
+          "published": "2026-11-21",
+          "update_note": "UPDATE",
+          "new_development": "The new wrinkle is Sunday’s wet, foggy weather on top of marathon closures and major-event traffic.",
+          "merged_keys": [
+            "philadelphia-marathon-weekend-weather-closures-2026-11-21"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Elections",
+      "stories": [
+        {
+          "key": "philadelphia-election-certification-monday-2026-11-21",
+          "category": "Elections",
+          "title": "Philadelphia election certification meeting remains on Monday’s calendar",
+          "deck": "City election officials are scheduled to meet Monday to certify results after the post-election canvass period.",
+          "paragraphs": [
+            "The meeting had already been set after the Nov. 3 election, but it remains a key administrative milestone as counties across Pennsylvania finalize midterm returns. Certification is typically procedural, though it can draw attention when close races or ballot questions are involved.",
+            "Philadelphia voters also considered charter amendments this year, including one that would make Creative Philadelphia a permanent part of city government, according to WHYY’s election guide published ahead of the vote."
+          ],
+          "source": "WHYY",
+          "url": "https://whyy.org/articles/election-2026-philadelphia-ballot-questions/",
+          "published": "2026-10-30",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "philadelphia-election-certification-monday-2026-11-21"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Technology",
+      "stories": [
+        {
+          "key": "openai-chatgpt-space-plus-rollout-2026-11-20",
+          "category": "Technology",
+          "title": "OpenAI expands product lineup with new models and a broader rollout of ChatGPT Space",
+          "deck": "OpenAI has introduced GPT-6.2 Astra and Sol for API and product tiers while also rolling out its collaborative workspace, Space, to Plus subscribers.",
+          "paragraphs": [
+            "OpenAI’s product and developer release notes say GPT-6.2 Astra and GPT-6.2 Sol became available Nov. 17 through the Responses API and Chat Completions, with Astra positioned for more demanding reasoning and coding and Sol for faster, lower-cost work. The company also outlined new background-completion options in the API.",
+            "OpenAI says ChatGPT Space is expanding globally to Plus users 18 and older on web, desktop, iOS and Android, replacing Library as the home for pages, slides, images and uploaded files. Shared pages and presentations still require sign-in and an eligible account to open, and public links are not available. The releases reflect how major AI products are moving from chat interfaces toward collaborative work surfaces."
+          ],
+          "source": "OpenAI Help Center",
+          "url": "https://help-lb.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "published": "2026-11-20",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "openai-chatgpt-space-plus-rollout-2026-11-20",
+            "openai-gpt62-astra-sol-api-2026-11-17"
+          ],
+          "additional_sources": [
+            {
+              "source": "OpenAI",
+              "url": "https://openai.com/news/product-releases/?display=list",
+              "published": "2026-11-17"
+            }
+          ]
+        },
+        {
+          "key": "openai-csam-image-classifier-availability-2026-11-16",
+          "category": "Technology Policy",
+          "title": "OpenAI opens CSAM image classifier to approved organizations at no cost",
+          "deck": "A child-safety tool announced this week is designed to help approved organizations prioritize images for human review, including possible AI-generated abuse material.",
+          "paragraphs": [
+            "OpenAI’s API changelog says the classifier returns separate signals for potential child sexual abuse material and potential AI-generated CSAM. The company said approved organizations can use it through the moderations endpoint without charge.",
+            "The release shows how AI companies are increasingly packaging safety systems as stand-alone products rather than only internal safeguards. It also underscores how synthetic media is complicating already difficult moderation and investigative work."
+          ],
+          "source": "OpenAI API",
+          "url": "https://developers.openai.com/api/docs/changelog?mw_entry=2026-09-29-99a06ddef837dc53",
+          "published": "2026-11-16",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "openai-csam-image-classifier-availability-2026-11-16"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Climate",
+      "stories": [
+        {
+          "key": "noaa-october-climate-report-2026-11-13",
+          "category": "Climate",
+          "title": "NOAA says warm stretch continued in October as winter outlook favors El Niño",
+          "deck": "Federal forecasters say the contiguous United States remained above its 20th-century temperature average for a 21st straight month, and El Niño is likely to persist into winter.",
+          "paragraphs": [
+            "NOAA’s National Centers for Environmental Information said October 2026 continued a long stretch of warmth and cataloged notable weather and climate events around the country. The report offers more context for a year that has mixed persistent heat with volatile regional storms.",
+            "The Climate Prediction Center’s seasonal outlook issued this month says December-January-February temperature and precipitation patterns are being shaped in part by El Niño. Seasonal outlooks do not specify local storm tracks weeks in advance, but they guide expectations for heating demand, snow probabilities and water management."
+          ],
+          "source": "NOAA NCEI",
+          "url": "https://www.ncei.noaa.gov/news/national-climate-202610",
+          "published": "2026-11-13",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "noaa-october-climate-report-2026-11-13",
+            "noaa-winter-outlook-el-nino-2026-11-12"
+          ],
+          "additional_sources": [
+            {
+              "source": "NOAA Climate Prediction Center",
+              "url": "https://www.cpc.ncep.noaa.gov/products/predictions/30day/fxus05.html",
+              "published": "2026-11-19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "stories": [
+        {
+          "key": "nasa-apod-voyagers-neptune-2026-11-21",
+          "category": "Space",
+          "title": "NASA’s latest sky note turns back to Voyager’s Neptune encounter",
+          "deck": "NASA’s science posting for Nov. 21 highlighted Astronomy Picture of the Day’s look at Voyager’s view of Neptune.",
+          "paragraphs": [
+            "The item is not a new mission event, but it arrives days after renewed attention on Voyager 1’s distance from Earth. NASA’s Nov. 21 science page featured the APOD entry centered on the spacecraft’s Neptune-era imagery.",
+            "The post offers an archival glance at one of the program’s defining moments rather than a fresh operational milestone."
+          ],
+          "source": "NASA Science",
+          "url": "https://science.nasa.gov/2026/11/21/",
+          "published": "2026-11-21",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "nasa-apod-voyagers-neptune-2026-11-21"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Sports",
+      "stories": [
+        {
+          "key": "eagles-steelers-week11-gameday-2026-11-22",
+          "category": "NFL",
+          "title": "Eagles host Steelers on Sunday as roster moves pile up before kickoff",
+          "deck": "Philadelphia is at home against Pittsburgh today, with the Eagles making late roster moves and confirming DeVonta Smith is available.",
+          "paragraphs": [
+            "The NFL schedule lists Steelers at Eagles for Sunday, Nov. 22, and the team’s news page says Philadelphia activated running back Will Shipley, placed linebacker Zack Baun and receiver Dontayvion Wicks on injured reserve, and elevated two practice-squad defenders for the game. Another team post said Smith is good to go.",
+            "The Eagles also confirmed earlier this month that the game was moved to a 1 p.m. kickoff. Team coverage this week framed it as the start of the second half for Philadelphia against a Steelers club listed by the Eagles at 6-3 entering Sunday."
+          ],
+          "source": "Philadelphia Eagles / Sports tool",
+          "url": "https://www.philadelphiaeagles.com/news/",
+          "published": "2026-11-22",
+          "update_note": "UPDATE",
+          "new_development": "On game day, the Eagles announced fresh roster moves and said DeVonta Smith is available against Pittsburgh.",
+          "merged_keys": [
+            "eagles-steelers-week11-gameday-2026-11-22"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "flyers-canadiens-2026-11-22",
+          "category": "NHL",
+          "title": "Flyers halt Montreal, extending a busy swing after two comeback-filled games",
+          "deck": "Philadelphia’s official team site posted a Sunday item indicating a win over Montreal after this week’s victories over Ottawa and Buffalo.",
+          "paragraphs": [
+            "The Flyers entered the weekend after a dramatic stretch that included a 6-5 overtime comeback against the Senators and a 4-3 win over the Sabres. Sunday’s team post signals that Philadelphia followed that run with another result in Montreal, though the headline page available Sunday morning did not display the final score in the excerpt.",
+            "With the club playing frequently through late November, the run offers a burst of momentum during a crowded part of the NHL calendar. A fuller box score would require the individual game recap, but the official site confirms the outcome direction."
+          ],
+          "source": "Philadelphia Flyers",
+          "url": "https://www.nhl.com/flyers/news/",
+          "published": "2026-11-22",
+          "update_note": "UPDATE",
+          "new_development": "The Flyers’ official site posted a new Sunday recap indicating a win over Montreal after the earlier comeback victories already covered this week.",
+          "merged_keys": [
+            "flyers-canadiens-2026-11-22"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "phillies-offseason-news-drought-2026-11-22",
+          "category": "MLB",
+          "title": "Phillies head deeper into the offseason without a major new club announcement",
+          "deck": "Philadelphia’s official news page showed offseason and ticketing material Sunday but no clearly posted fresh baseball move of major significance.",
+          "paragraphs": [
+            "With the Phillies eliminated earlier and no verified new transaction available from the club page retrieved Sunday, the team enters Thanksgiving week in a quieter stretch than the Eagles, Sixers or Flyers. Offseason developments can move quickly, but none was sufficiently confirmed from the available direct source material to warrant a separate headline story today."
+          ],
+          "source": "Philadelphia Phillies",
+          "url": "https://www.mlb.com/phillies/news",
+          "published": "",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "phillies-offseason-news-drought-2026-11-22"
+          ],
+          "additional_sources": []
+        }
+      ]
+    }
+  ],
+  "long_reads": [
+    {
+      "title": "Philadelphia judges using AI through a UPenn pilot program",
+      "description": "The Inquirer’s Nov. 20 morning newsletter points to reporting on how artificial-intelligence tools are beginning to enter judicial chambers in Philadelphia.",
+      "source": "The Philadelphia Inquirer",
+      "url": "https://www.inquirer.com/newsletters/morning/philadelphia-judges-using-artificial-intelligence-ai-penn-program-20261120.html"
+    },
+    {
+      "title": "Things to do around Philly: Philadelphia Marathon, ‘Frozen’",
+      "description": "A weekend cultural guide from WHYY, published Nov. 19, with events across the region including South Jersey stops.",
+      "source": "WHYY",
+      "url": "https://whyy.org/articles/things-to-do-november-2026-weekend-3/"
+    },
+    {
+      "title": "A look at the Philadelphia foster care system",
+      "description": "WHYY’s Nov. 9 audio segment provides broader background on the system now under intense scrutiny after Malayshia Allford’s death.",
+      "source": "WHYY",
+      "url": "https://whyy.org/episodes/a-look-at-the-philadelphia-foster-care-system/"
+    }
+  ]
+}
