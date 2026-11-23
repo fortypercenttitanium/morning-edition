@@ -1,0 +1,382 @@
+{
+  "date": "2026-11-23",
+  "lead": {
+    "key": "house-control-democrats-north-carolina-recount-2026-11-22",
+    "category": "National Politics",
+    "title": "Democrats clinch House control after North Carolina recount",
+    "deck": "A final House race call in North Carolina completed a midterm turnaround that gives Democrats control of both chambers when the next Congress convenes in January.",
+    "paragraphs": [
+      "The Associated Press reported Sunday that Democrat Chuck Hubbard defeated Republican Rep. Virginia Foxx after a recount in North Carolina, a result that capped broader Democratic gains in the Nov. 3 midterm elections and secured House control alongside the party’s Senate majority. The outcome turns what had been an extended period of uncertainty in a handful of close races into a clearer governing picture for Washington.",
+      "The shift matters immediately for committee control, investigations and the fate of legislation awaiting the next Congress. It also lands as President Donald Trump tries to steady his position after the elections while managing foreign-policy tensions abroad and continued domestic debate over the war with Iran."
+    ],
+    "source": "Associated Press",
+    "url": "https://apnews.com/article/23732afcd78a853e98acd9b72d0cbd14",
+    "published": "2026-11-22",
+    "update_note": "",
+    "new_development": "",
+    "merged_keys": [
+      "house-control-democrats-north-carolina-recount-2026-11-22"
+    ],
+    "additional_sources": []
+  },
+  "sections": [
+    {
+      "name": "Foreign Policy",
+      "stories": [
+        {
+          "key": "trump-iran-deal-unacceptable-comments-2026-11-20",
+          "category": "Foreign Policy",
+          "title": "Trump says Iran wants a deal, but not one he would accept",
+          "deck": "The president’s latest comments signaled no near-term diplomatic breakthrough despite efforts to prevent a wider renewed conflict.",
+          "paragraphs": [
+            "President Donald Trump said Friday that Tehran wants a deal to end hostilities but that the terms on offer are not acceptable to him, AP reported. The remarks came amid continued concern in Washington and Gulf capitals that fighting could return to a broader phase even after Trump earlier suggested the war was militarily over for now.",
+            "The diplomatic picture remains unsettled. AP reported that regional governments were trying through existing channels to seek at least a partial, durable arrangement, but there was no announced agreement as of the weekend."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/8fd6dcd6dc4a1a77437cedc4567fbee8",
+          "published": "2026-11-20",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "trump-iran-deal-unacceptable-comments-2026-11-20"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Climate and Weather",
+      "stories": [
+        {
+          "key": "cop31-talks-collapse-no-deal-2026-11-22",
+          "category": "Climate",
+          "title": "U.N. climate talks end without a final deal",
+          "deck": "Negotiators left Antalya without agreement after disputes over fossil fuels and broader responsibility sharing.",
+          "paragraphs": [
+            "The U.N. climate conference in Antalya, Turkey, ended without a final agreement Sunday, according to AP, after negotiators failed to bridge divisions over fossil fuels and the obligations of major emitters. The collapse leaves this year’s summit without the kind of consensus document that often frames the next round of national climate bargaining.",
+            "The breakdown followed days of friction over whether countries would explicitly commit to moving away from fossil fuels and how much pressure should fall on wealthy economies versus large developing ones. AP reported that the United States did not take part in the talks this year under the Trump administration, adding to the strain around the negotiations."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/baed7f1491d16a00ee9b60a35596e1f6",
+          "published": "2026-11-22",
+          "update_note": "UPDATE",
+          "new_development": "The conference has now ended without any final agreement, moving the story beyond draft disputes and overtime talks.",
+          "merged_keys": [
+            "cop31-talks-collapse-no-deal-2026-11-22"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "International",
+      "stories": [
+        {
+          "key": "poland-russia-alleged-plot-ukrainian-american-2026-11-22",
+          "category": "International",
+          "title": "European governments describe alleged Russian plot targeting a Ukrainian American",
+          "deck": "Officials in Poland and Denmark said they had disrupted an operation on NATO territory.",
+          "paragraphs": [
+            "AP reported Sunday that Denmark expelled a Russian official after authorities said they had thwarted an alleged plot to kill a Ukrainian American citizen on Danish soil. Polish Prime Minister Donald Tusk had earlier disclosed an alleged Russian-backed plot in Warsaw, describing it as the first known attempt of its kind against a U.S. citizen on another NATO country’s territory.",
+            "The allegations underscore how the war’s risks increasingly spill beyond Ukraine itself. European officials used the case to argue that Russian pressure tactics are reaching deeper into allied territory."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/291d2e6c33441c06963c4807c32eb7cd",
+          "published": "2026-11-22",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "poland-russia-alleged-plot-ukrainian-american-2026-11-22"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "ukraine-russian-warship-libya-strike-2026-11-23",
+          "category": "War",
+          "title": "Ukraine says naval drones struck a Russian warship in Libya",
+          "deck": "Kyiv described the attack as another long-range blow against Russian military assets beyond the main front.",
+          "paragraphs": [
+            "President Volodymyr Zelenskyy said Monday that Ukrainian naval drones struck and sank one of Russia’s newer warships in Libyan waters, according to AP. Ukraine also said it hit a Russian cargo vessel used to transport weapons and destroyed a military helicopter in the same operation.",
+            "If confirmed in fuller detail, the strike would represent an unusually far-flung extension of Ukraine’s campaign against Russian military logistics and prestige targets. AP reported that a separate sea-drone strike later hit a Maltese-flagged commercial vessel off Benghazi, according to the Libyan coast guard, underscoring the widening maritime risks around the conflict."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/c382f8eb06dca7d87e89bc6c18ba7d61",
+          "published": "2026-11-23",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "ukraine-russian-warship-libya-strike-2026-11-23"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "canada-press-gallery-fake-trump-2026-11-23",
+          "category": "Delightful",
+          "title": "Canada’s press-gallery dinner turns politics into stage comedy",
+          "deck": "Prime Minister Mark Carney joined comedians, including a fake Trump, at the annual Ottawa roast.",
+          "paragraphs": [
+            "Canada’s annual Parliamentary Press Gallery dinner featured Prime Minister Mark Carney sharing the stage with a fake Donald Trump and another comic version of himself, AP reported Monday. The event is a political roast in which journalists and public officials trade jokes and barbs.",
+            "The dinner was not a major policy event, but it offered a lighter counterpoint to an unusually tense North American political season and showed how neighboring democracies continue to process high-stakes politics through ritualized public satire."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/75c0aa1ae75143e2cd044fc289149d44",
+          "published": "2026-11-23",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "canada-press-gallery-fake-trump-2026-11-23"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Business and Markets",
+      "stories": [
+        {
+          "key": "markets-mixed-tech-shares-fall-2026-11-23",
+          "category": "Economy",
+          "title": "World shares mixed as tech weakness lingers",
+          "deck": "U.S. futures rose early Monday, but pressure on big technology stocks remained a central market theme.",
+          "paragraphs": [
+            "World markets were mixed early Monday while U.S. stock futures moved higher, AP reported, even as large technology shares continued to weigh on sentiment in parts of Asia. Oil prices eased from recent highs but remained well above levels seen before the Iran war began earlier this year.",
+            "The early trading snapshot suggested investors were still balancing two competing signals: some stabilization after a bruising stretch for equities, and continuing anxiety about energy prices, geopolitics and the durability of the technology trade that had powered markets for much of the year."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/49ba1beba78fa4ed2bd5898029f79c91",
+          "published": "2026-11-23",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "markets-mixed-tech-shares-fall-2026-11-23"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Transportation",
+      "stories": [
+        {
+          "key": "delta-automation-problem-thanksgiving-travel-2026-11-22",
+          "category": "Transportation",
+          "title": "Delta automation problem causes delays as Thanksgiving travel begins",
+          "deck": "A fresh airline technology disruption hit as holiday passenger volumes started to build.",
+          "paragraphs": [
+            "Delta Air Lines experienced delays tied to an automation-system problem on Sunday, AP reported, creating another headache for travelers during the run-up to Thanksgiving. The disruption arrived just as airports and airlines were preparing for one of the busiest travel stretches of the year.",
+            "The issue was notable both for its timing and for how recent technical failures have amplified public scrutiny of aviation systems. AP said the problem caused flight delays rather than a nationwide halt, but even narrower disruptions can ripple across major hubs during holiday weeks."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/d4bdb732da930205ec3453d35c28daa2",
+          "published": "2026-11-22",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "delta-automation-problem-thanksgiving-travel-2026-11-22"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "philadelphia-septa-real-time-subway-arrivals-2026-11-19",
+          "category": "Transit",
+          "title": "SEPTA begins adding real-time subway arrival displays",
+          "deck": "The system is bringing live train information to platforms in a practical service upgrade.",
+          "paragraphs": [
+            "The Philadelphia Inquirer reported this past week that SEPTA is rolling out real-time arrival information to subway platforms, a modest but tangible improvement in daily rider information. The change aims to give passengers clearer timing on train arrivals rather than relying solely on static schedules or app access.",
+            "For riders, the benefit is straightforward: more certainty on platforms and quicker notice when service gaps open. The upgrade also reflects SEPTA’s broader effort to modernize basic rider-facing systems even as funding and reliability remain recurring issues."
+          ],
+          "source": "The Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/newsletters/morning/septa-train-arrival-display-philadelphia-chester-trash-city-council-20261119.html",
+          "published": "2026-11-19",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "philadelphia-septa-real-time-subway-arrivals-2026-11-19"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Philadelphia",
+      "stories": [
+        {
+          "key": "philadelphia-election-board-certification-2026-11-23",
+          "category": "Elections",
+          "title": "Philadelphia election board meets Monday to certify results",
+          "deck": "The city’s next formal post-election step follows earlier canvassing and comes after voters approved two charter questions this month.",
+          "paragraphs": [
+            "Philadelphia’s election board was scheduled to meet Monday to certify city results from the Nov. 3 election, according to WHYY’s election coverage and city reporting in recent days. The certification meeting is the formal step that follows canvassing and resolves the city’s role before results move into the broader state process.",
+            "This year’s local ballot included two Philadelphia Home Rule Charter questions, both of which voters approved by wide margins, WHYY previously reported: one allowing preferences for small local businesses in city contracting and another making Creative Philadelphia a permanent city office."
+          ],
+          "source": "WHYY",
+          "url": "https://whyy.org/live/election-2026-pennsylvania-live-updates-midterms-new-jersey-delaware/",
+          "published": "2026-11-04",
+          "update_note": "UPDATE",
+          "new_development": "The new development is Monday’s scheduled certification meeting, advancing the post-election process beyond earlier canvassing.",
+          "merged_keys": [
+            "philadelphia-election-board-certification-2026-11-23"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "philadelphia-reworld-contract-full-council-next-2026-11-19",
+          "category": "City Hall",
+          "title": "Philadelphia trash-contract fight moves toward full Council vote",
+          "deck": "A committee stripped the Chester incinerator operator Reworld from the city’s proposed waste-disposal package.",
+          "paragraphs": [
+            "A Philadelphia City Council committee has rejected including Reworld, the company that burns much of the city’s trash in Chester, in a new waste-disposal contract package, WHYY reported Thursday. The amendment removed Reworld from the bill while allowing authorizations for other disposal arrangements to advance.",
+            "The move sharpens a long-running fight over where Philadelphia should send its trash after current contracts expire at year’s end. WHYY reported that full Council could take up the bill as early as Dec. 3, with critics arguing the city should move away from incineration and supporters of the broader package warning about the practical limits of disposal capacity."
+          ],
+          "source": "WHYY",
+          "url": "https://whyy.org/articles/philadelphia-city-council-committee-rejects-reworld-incinerator-contract/",
+          "published": "2026-11-19",
+          "update_note": "UPDATE",
+          "new_development": "The consequential new step is the committee vote removing Reworld from the pending contract bill and sending a changed measure toward full Council.",
+          "merged_keys": [
+            "philadelphia-reworld-contract-full-council-next-2026-11-19"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "philadelphia-dhs-hearing-foster-care-shortcomings-2026-11-20",
+          "category": "Public Safety",
+          "title": "Council presses DHS over foster-care failures after child’s death",
+          "deck": "A City Council hearing examined oversight breakdowns after the death of 10-year-old Malayshia Allford.",
+          "paragraphs": [
+            "Philadelphia City Council held a hearing Thursday on the Department of Human Services and shortcomings in the foster-care system after the death of 10-year-old Malayshia Allford, WHYY reported. DHS Commissioner Kimberly Ali told lawmakers the department was already working on changes intended to prevent future deaths, while also saying she could not discuss details of the active case.",
+            "The hearing marked a more formal and public stage in the city’s response than earlier calls for review. It focused attention on supervision, case management and accountability in a system that officials said was supposed to protect vulnerable children."
+          ],
+          "source": "WHYY",
+          "url": "https://whyy.org/articles/philadelphia-city-council-human-service-department-hearing/",
+          "published": "2026-11-20",
+          "update_note": "UPDATE",
+          "new_development": "The new development is the City Council hearing itself, where DHS leadership publicly answered questions about system failures after the child’s death.",
+          "merged_keys": [
+            "philadelphia-dhs-hearing-foster-care-shortcomings-2026-11-20"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "cheltenham-glenside-crossing-south-plan-2026-11-19",
+          "category": "Development",
+          "title": "Cheltenham planners consider apartments near Glenside light rail stop",
+          "deck": "A developer is proposing 20 apartments and ground-floor commercial space on Glenside Avenue.",
+          "paragraphs": [
+            "Cheltenham Township’s planning commission was set to consider a proposal Monday night for Glenside Crossing South, a three-story mixed-use building with about 20 apartments near the Glenside SEPTA light rail stop, The Inquirer reported. The project would replace an auto body shop, a twin and a closed storefront on four parcels near New Street.",
+            "The proposal fits into a larger regional push toward denser housing near transit. According to The Inquirer, the plan would go next to the township’s building and zoning committee in December if it advances from the planning commission."
+          ],
+          "source": "The Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/news/glenside-apartments-planned-demolition-auto-shop-20261119.html",
+          "published": "2026-11-19",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "cheltenham-glenside-crossing-south-plan-2026-11-19"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "holiday-market-fyi-philly-2026-11-21",
+          "category": "Culture",
+          "title": "Holiday market season opens in Philadelphia",
+          "deck": "The city’s annual winter retail and event calendar is beginning to fill in before Thanksgiving.",
+          "paragraphs": [
+            "6abc’s FYI Philly roundup this weekend highlighted the return of the Made in Philadelphia Holiday Market, with its white vendor huts and more than 40 sellers. The market is one of the visible markers of the region’s shift into the holiday season and joins a broader cluster of seasonal events in Center City.",
+            "The same roundup also previewed Thanksgiving-week programming and home entertaining ideas, reflecting the consumer and cultural turn that often takes over the calendar in the final days before the holiday."
+          ],
+          "source": "6abc",
+          "url": "https://6abc.com/post/fyi-philly-november-21-2026/20052338/",
+          "published": "2026-11-21",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "holiday-market-fyi-philly-2026-11-21"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Technology and Science",
+      "stories": [
+        {
+          "key": "openai-gpt-62-astra-sol-release-2026-11-17",
+          "category": "AI",
+          "title": "OpenAI introduces GPT-6.2 Astra and Sol",
+          "deck": "The company says the new API models improve reasoning, coding and cost efficiency over their predecessors.",
+          "paragraphs": [
+            "OpenAI announced on Nov. 17 that it was introducing GPT-6.2 Astra and GPT-6.2 Sol in the API, describing Astra as its frontier model for advanced reasoning and coding work and Sol as a faster, lower-cost option for multistep tasks. The company said both models accept text and images and return text.",
+            "Separate OpenAI product and developer pages said the models are available through the Responses API and Chat Completions, with tool calling requiring the Responses API. The release extends a busy November product cycle across OpenAI’s API and ChatGPT offerings."
+          ],
+          "source": "OpenAI",
+          "url": "https://openai.com/news/product-releases/?display=list",
+          "published": "2026-11-17",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "openai-gpt-62-astra-sol-release-2026-11-17"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "openai-frontier-risk-process-2026-11-18",
+          "category": "AI Policy",
+          "title": "OpenAI publishes new write-up on frontier-risk management",
+          "deck": "The company outlined how it says it evaluates model risk from training through deployment.",
+          "paragraphs": [
+            "OpenAI published a safety document on Nov. 18 describing its approach to managing frontier AI risk from training through deployment. The company said the framework covers internal deployment, staged evaluation and controls designed to limit misuse as models become more capable.",
+            "The paper is a policy and governance document rather than a product launch, but it arrives as AI companies face sharper scrutiny from governments, customers and researchers over how advanced systems are tested and released."
+          ],
+          "source": "OpenAI",
+          "url": "https://openai.com/index/managing-frontier-ai-risk/?type=AI",
+          "published": "2026-11-18",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "openai-frontier-risk-process-2026-11-18"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Crime",
+      "stories": [
+        {
+          "key": "ohio-baby-shower-shooting-2026-11-22",
+          "category": "Crime",
+          "title": "Three killed in shooting at Ohio baby shower",
+          "deck": "Police said a domestic dispute led to the fatal violence in Parma.",
+          "paragraphs": [
+            "Three people were killed and another was wounded during a shooting at a baby shower in Parma, Ohio, on Sunday, and one man was taken into custody, AP reported. Authorities said the violence appeared to stem from a domestic dispute.",
+            "The episode quickly became one of the starkest U.S. crime stories of the weekend, both because of the setting and because family gatherings are typically treated as places of safety rather than conflict."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/0f6cfb9a24747695ba6be1259f5e7f0f",
+          "published": "2026-11-22",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "ohio-baby-shower-shooting-2026-11-22"
+          ],
+          "additional_sources": []
+        }
+      ]
+    }
+  ],
+  "long_reads": [
+    {
+      "title": "Mayor Parker pledged to help save 925 affordable rentals across Philly. Councilmember Gauthier wants a funding commitment",
+      "description": "WHYY examines the political and budget fight around preserving hundreds of affordable units in West and Southwest Philadelphia.",
+      "source": "WHYY",
+      "url": "https://whyy.org/articles/philadelphia-affordable-housing-renters-cobbs-creek/"
+    },
+    {
+      "title": "Monitoring U.S. Temperature and Precipitation in October 2026",
+      "description": "NOAA’s monthly national climate report offers the federal baseline for temperature, precipitation and drought trends heading into winter.",
+      "source": "NOAA NCEI",
+      "url": "https://www.ncei.noaa.gov/news/national-climate-202610"
+    }
+  ]
+}
