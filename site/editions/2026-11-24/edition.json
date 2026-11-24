@@ -1,0 +1,266 @@
+{
+  "date": "2026-11-24",
+  "lead": {
+    "key": "nvidia-jensen-huang-reinstated-2026-11-23",
+    "category": "Technology",
+    "title": "Nvidia reinstates Jensen Huang as CEO after days of turmoil",
+    "deck": "The board reversed course Monday, restoring the chipmaker’s co-founder to the top job after a jolt that rattled markets, AI companies and Washington.",
+    "paragraphs": [
+      "Nvidia’s board reinstated Jensen Huang as chief executive on Monday, only days after rejecting his return, in a reversal that underscored how central the company has become to financial markets and the AI industry. The Associated Press reported that shares surged after the decision, though the stock remained below last month’s peak. AP also reported that the White House viewed Huang’s return as important enough that Vice President JD Vance helped press the case with board members.",
+      "The episode lands in a market already unsettled by a selloff in AI-related stocks and by Washington’s increasingly direct involvement in semiconductor policy. Nvidia’s reach extends from cloud providers to model developers and data-center builders, so the leadership upheaval quickly became a broader question about industrial concentration, national policy and the stability of the AI boom."
+    ],
+    "source": "Associated Press",
+    "url": "https://apnews.com/article/39d4b34ffaa867b4e669893b5fd5028f",
+    "published": "2026-11-23",
+    "update_note": "",
+    "new_development": ""
+  },
+  "sections": [
+    {
+      "name": "Nation & World",
+      "stories": [
+        {
+          "key": "qatar-vance-rubio-iran-talks-2026-11-24",
+          "category": "Politics",
+          "title": "Vance and Rubio meet with Qatar’s prime minister as Iran diplomacy remains unsettled",
+          "deck": "The administration’s top envoys held separate meetings Monday while President Donald Trump continued to signal that Tehran wants an end to the fighting but not on terms he will accept.",
+          "paragraphs": [
+            "Vice President JD Vance and Secretary of State Marco Rubio separately met Qatar’s prime minister on Monday as uncertainty persisted over the administration’s next steps in the U.S. conflict with Iran. Qatar has played a central role in attempts to revive negotiations, and the meetings came after Trump said last week that Iran wanted an agreement but not one he considered acceptable.",
+            "The diplomacy follows several days of mixed messaging from Washington, with no announced breakthrough and no public indication that fighting is near a formal end. The latest contacts suggest Gulf intermediaries remain active even as the White House keeps emphasizing pressure alongside talks."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/16e0c2cb05347cfcac068ec4aebb363f",
+          "published": "2026-11-24",
+          "update_note": "UPDATE",
+          "new_development": "New talks were held Monday in Washington between U.S. officials and Qatar’s prime minister, keeping mediation channels open after Trump publicly rejected what he described as a bad deal."
+        },
+        {
+          "key": "ukraine-zaporizhzhia-strike-libya-context-2026-11-24",
+          "category": "World",
+          "title": "Russian strike kills civilians in Zaporizhzhia as Ukraine links wider attacks to winter pressure",
+          "deck": "Kyiv said Moscow was preparing additional strikes while defending its own expanding attacks on Russian assets, including a warship hit in Libya.",
+          "paragraphs": [
+            "A Russian strike in Ukraine’s Zaporizhzhia region killed two people and wounded children on Tuesday, according to local officials cited by the Associated Press. President Volodymyr Zelenskyy said Ukraine was sending reinforcements to the region and warned that intelligence pointed to further Russian attacks as winter approaches.",
+            "The new strike came as Kyiv explained its recent operation against a Russian warship in Libya and as both sides widened the geographic reach of the war. Russia has repeatedly targeted Ukraine’s energy system ahead of cold weather, while Ukraine has sought to hit military-linked assets farther from the main front."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/bfff959fb4c7415f9473b34e78a4f750",
+          "published": "2026-11-24",
+          "update_note": "UPDATE",
+          "new_development": "A fresh Russian strike on Zaporizhzhia killed two civilians Tuesday as Ukraine said Moscow was preparing new attacks and moved reinforcements into the area."
+        },
+        {
+          "key": "california-ballot-lawsuit-dismissal-2026-11-23",
+          "category": "Politics",
+          "title": "Appeals court ends federal lawsuit over roughly 20,000 California ballots",
+          "deck": "A Ninth Circuit ruling approved the Justice Department’s move to drop its own challenge, closing a burst of pre-certification litigation after the midterms.",
+          "paragraphs": [
+            "A federal appeals court on Monday approved the Justice Department’s request to dismiss its lawsuit seeking to stop California from counting roughly 20,000 ballots while officials checked the immigration status of recipients the government alleged were noncitizens. The Associated Press reported that the ruling formally ended one of the most prominent late-election legal fights tied to the midterms.",
+            "The case had become part of a broader national argument over ballot access, voter eligibility and federal intervention in state election administration. Its end removes one outstanding legal dispute from a cycle in which Democrats have already secured control of the House and expanded their Senate majority."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/3fe6eeb38c7dd8b77c84733f898163ef",
+          "published": "2026-11-23",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "trump-jr-1789-capital-house-probe-2026-11-24",
+          "category": "Politics",
+          "title": "House Democrat broadens investigation into Donald Trump Jr.’s investment firm",
+          "deck": "Rep. Jamie Raskin sought records from four companies that received investments before later benefiting from federal contracts or policy actions, according to AP.",
+          "paragraphs": [
+            "A leading House Democrat is expanding an investigation into 1789 Capital, the venture firm associated with Donald Trump Jr., by demanding records from four companies that secured investments and later benefited from federal contracts or government action, the Associated Press reported Tuesday.",
+            "The inquiry adds to the oversight fights likely to shape the next Congress after Democrats won back House control. Lawyers for the firm have defended its business approach and accused investigators of politicizing oversight."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/f51c0cd43c57326ab8540ac661dca2ac",
+          "published": "2026-11-24",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "abortion-rights-midterms-state-fights-2026-11-23",
+          "category": "Politics",
+          "title": "Midterm gains for abortion-rights supporters do not guarantee rapid policy change",
+          "deck": "State-level fights remain uneven even after voters and candidates backing abortion access performed well in the elections.",
+          "paragraphs": [
+            "Candidates and ballot efforts supporting abortion rights performed strongly in the midterms, but the Associated Press reported that major policy changes are still likely to be piecemeal and state-specific. Some states preserved protections, while others are still moving to tighten access through medication and procedural limits.",
+            "The result is a map that remains fragmented despite clear electoral salience. With Congress divided on national legislation and states still controlling most practical access, legal and political fights are expected to continue into 2027."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/5a7c40258e342764400a96c79d673858",
+          "published": "2026-11-23",
+          "update_note": "",
+          "new_development": ""
+        }
+      ]
+    },
+    {
+      "name": "Local | South Jersey, Philadelphia & New Jersey",
+      "stories": [
+        {
+          "key": "philadelphia-election-board-certification-2026-11-23",
+          "category": "Local government",
+          "title": "UPDATE: Philadelphia election board certifies results",
+          "deck": "The city board met Monday as scheduled to formalize the midterm outcome after days of procedural preparation.",
+          "paragraphs": [
+            "Philadelphia’s election board met Monday to certify the city’s 2026 general-election results, completing the formal local step in a midterm cycle that reshaped the balance of power nationally. The meeting followed earlier scheduling and canvass actions reported in recent days.",
+            "Certification does not end every possible dispute, but it marks the city’s official acceptance of the vote totals. Philadelphia’s administration of mail ballots, canvassing and certification drew close attention this fall because of the state’s frequent role in closely watched races."
+          ],
+          "source": "The Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/author/orso_anna/",
+          "published": "2026-11-21",
+          "update_note": "UPDATE",
+          "new_development": "The scheduled certification meeting has now occurred and the board certified Philadelphia’s election results on Monday."
+        },
+        {
+          "key": "philadelphia-dhs-hearing-foster-care-shortcomings-2026-11-20",
+          "category": "Local government",
+          "title": "Council keeps pressure on Philadelphia DHS over foster-care failures",
+          "deck": "Lawmakers questioned the department after a child’s death and broader concerns about how the system handles vulnerable families.",
+          "paragraphs": [
+            "Philadelphia City Council has continued pressing the Department of Human Services over foster-care failures after a child’s death and testimony about shortcomings in the system. Recent hearings have focused on oversight, response times and whether warning signs were missed.",
+            "The issue has become one of the more consequential accountability fights at City Hall this month. It reaches beyond one case to the city’s handling of investigations, placements and contractor supervision."
+          ],
+          "source": "The Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/politics/philadelphia/city-council-fall-priorities-arena-incinerator-taxes-20260916.html",
+          "published": "2026-09-16",
+          "update_note": "UPDATE",
+          "new_development": "Council scrutiny intensified at hearings held last week, shifting the story from background concern to active legislative oversight after a child’s death."
+        },
+        {
+          "key": "philadelphia-reworld-contract-full-council-next-2026-11-19",
+          "category": "Environment",
+          "title": "Trash-contract fight heads toward full Council after committee rejection",
+          "deck": "Philadelphia’s debate over whether to keep sending waste to the Chester incinerator operator remains unresolved after a key setback for the administration-backed contract.",
+          "paragraphs": [
+            "Philadelphia’s proposed waste-disposal contract with Reworld remains in political limbo after a Council committee rejected the measure, pushing the dispute toward a broader fight at full Council. The conflict has drawn testimony from city officials, community members and a former company worker who said regulators were misled.",
+            "The decision matters for where the city sends trash and how it weighs cost, emissions, community impact and contract structure. Chester’s long-running burden from regional waste disposal remains central to the debate."
+          ],
+          "source": "The Philadelphia Inquirer",
+          "url": "https://www.inquirer.com/newsletters/morning/septa-train-arrival-display-philadelphia-chester-trash-city-council-20261119.html?int_promo=newsroom",
+          "published": "2026-11-19",
+          "update_note": "UPDATE",
+          "new_development": "After the committee rejection and whistleblower testimony last week, the dispute has moved into a new stage centered on whether full Council will revive or bury the contract."
+        }
+      ]
+    },
+    {
+      "name": "Business, Technology & Science",
+      "stories": [
+        {
+          "key": "openai-gpt6-cyber-2026-11-22",
+          "category": "Technology",
+          "title": "OpenAI posts details on GPT-6 Cyber as AI security tools proliferate",
+          "deck": "The company described a cybersecurity-focused model designed to find exploitable vulnerabilities and help produce fixes within authorized scope.",
+          "paragraphs": [
+            "OpenAI’s safety newsroom posted a new write-up on GPT-6 Cyber on Nov. 22, describing the model as a cybersecurity system trained to identify exploitable vulnerabilities and develop fixes while staying within authorized boundaries. The announcement adds to a wave of increasingly specialized AI systems aimed at enterprise and security uses.",
+            "The release shows how frontier-model companies are carving products into narrower professional categories rather than relying only on general-purpose chatbots. It also reflects the growing pressure on AI firms to describe safety constraints more explicitly as their tools move closer to sensitive operational work."
+          ],
+          "source": "OpenAI",
+          "url": "https://openai.com/news/safety-alignment/?display=list",
+          "published": "2026-11-22",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "openai-api-realtime-models-changelog-2026-11",
+          "category": "Technology",
+          "title": "OpenAI API changelog highlights new realtime voice and translation models",
+          "deck": "Developer documentation lists GPT-Realtime-2, translation streaming and speech-to-text updates among November platform changes.",
+          "paragraphs": [
+            "OpenAI’s developer changelog for November lists several platform additions, including GPT-Realtime-2 for speech-to-speech agents, GPT-Realtime-Translate for streaming speech translation and GPT-Realtime-Whisper for streaming transcription. The items indicate continued investment in low-latency voice systems for live applications.",
+            "Developer changelogs are not consumer product launches, but they often show where platform priorities are moving. In this case, the emphasis is on voice interaction, translation and more configurable realtime behavior for software builders."
+          ],
+          "source": "OpenAI",
+          "url": "https://developers.openai.com/api/docs/changelog?mw_entry=2026-09-29-99a06ddef837dc53",
+          "published": "2026-11-24",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "consumer-confidence-inflation-weekahead-2026-11-21",
+          "category": "Economy",
+          "title": "Inflation and consumer mood remain the week’s main economic tests",
+          "deck": "Fresh readings on confidence, income, spending and the Fed’s preferred inflation gauge are due in a holiday-shortened week.",
+          "paragraphs": [
+            "This week’s U.S. economic calendar centers on inflation and consumer behavior, with the Conference Board’s confidence survey and the October personal income, spending and PCE inflation report due during the holiday-shortened stretch. The Associated Press noted that inflation remains the thread running through much of the economy this year, especially after energy disruptions tied to the Iran war pushed prices higher.",
+            "Investors are watching the numbers after a rough period for markets and renewed expectations that the Federal Reserve could keep policy tight. The data will help test whether households are still spending despite higher costs and a shakier market backdrop."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/6c207f517113ab0e65c60ac3ee66440e",
+          "published": "2026-11-21",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "noaa-west-storms-thanksgiving-week-2026-11-24",
+          "category": "Weather",
+          "title": "NOAA forecasters warn of a wet, stormy week in the Pacific Northwest",
+          "deck": "Forecast products issued early Tuesday show repeated Pacific systems, mountain snow at higher elevations and another atmospheric river arriving by late Wednesday.",
+          "paragraphs": [
+            "NOAA’s Weather Prediction Center early Tuesday warned that the West Coast, especially the Pacific Northwest, will face repeated Pacific storm systems through Thanksgiving, with heavy mountain snow in higher terrain and another atmospheric river aimed at western Washington by late Wednesday.",
+            "The setup is far from South Jersey, but it is one of the country’s most consequential weather stories entering the holiday. A prolonged storm train can affect mountain travel, river conditions and airport operations during one of the busiest weeks of the year."
+          ],
+          "source": "NOAA Weather Prediction Center",
+          "url": "https://origin-east-www-wpc.woc.noaa.gov/index.shtml",
+          "published": "2026-11-24",
+          "update_note": "",
+          "new_development": ""
+        }
+      ]
+    },
+    {
+      "name": "Culture, Curiosity & Odds",
+      "stories": [
+        {
+          "key": "thanksgiving-turkey-pardon-2026-11-24",
+          "category": "Culture",
+          "title": "White House prepares Thanksgiving turkey pardon",
+          "deck": "Trump is set to pardon two turkeys, Freedom and Feather, in one of the capital’s annual ceremonial rituals.",
+          "paragraphs": [
+            "President Donald Trump is expected to pardon two turkeys, Freedom and Feather, at the White House ahead of Thanksgiving, the Associated Press reported early Tuesday. The annual event is mostly ceremonial, though it often doubles as a small political stage depending on the tone the president chooses.",
+            "The ritual has endured as one of the stranger fixtures on the official Washington calendar: a holiday photo opportunity, a comic break in the news cycle and a reminder that even modern presidencies keep old theatrical customs."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/bb973ff5e095fa20229f49aea36dafd5",
+          "published": "2026-11-24",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "nasa-full-supermoon-2026-11-24",
+          "category": "Sky",
+          "title": "Tonight brings November’s full supermoon",
+          "deck": "NASA’s monthly skywatching guide flags Nov. 24 as a bright full-moon night.",
+          "paragraphs": [
+            "NASA’s November skywatching guide says the evening of Nov. 24 will feature a supermoon, putting an unusually large and bright full moon in the sky on Tuesday night. The guide was published earlier this month as part of the agency’s regular public observing notes.",
+            "It is not a rarest-of-the-rare event, but it is a reliable one: the kind of astronomical marker visible from city blocks, suburbs and farm fields alike without any equipment."
+          ],
+          "source": "NASA Science",
+          "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/?linkId=1030817299",
+          "published": "2026-11-03",
+          "update_note": "",
+          "new_development": ""
+        },
+        {
+          "key": "openai-forum-networking-event-2026-11-24",
+          "category": "Technology culture",
+          "title": "OpenAI Forum lists annual community networking event for Nov. 24",
+          "deck": "The public events calendar shows a large member gathering on Tuesday as the AI sector continues building its civic and professional ecosystem.",
+          "paragraphs": [
+            "OpenAI’s public Forum events page lists an annual community networking event for Nov. 24, one more sign that the AI industry’s public presence now extends well beyond product launches and research papers into recurring professional communities and conference-style programming.",
+            "That sort of event is not a hard-news corporate development on its own. It does, however, show how quickly AI organizations are building durable institutions around users, developers and policy-adjacent communities."
+          ],
+          "source": "OpenAI Forum",
+          "url": "https://forum.openai.com/public/events/the-openai-forum-presents-annual-community-networking-event-sdco3px25s?referralCode=QzqM",
+          "published": "2026-11-24",
+          "update_note": "",
+          "new_development": ""
+        }
+      ]
+    }
+  ],
+  "long_reads": []
+}
