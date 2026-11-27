@@ -1,0 +1,279 @@
+{
+  "date": "2026-11-27",
+  "lead": {
+    "key": "thanksgiving-noreaster-philly-south-jersey-2026-11-26",
+    "category": "Local",
+    "title": "Thanksgiving nor’easter leaves flooding, outages and travel disruption across the Philadelphia region",
+    "deck": "A powerful coastal storm canceled Philadelphia’s Thanksgiving parade, flooded shore communities and knocked out power as holiday travel entered its busiest stretch.",
+    "paragraphs": [
+      "A Thanksgiving nor’easter swept through Pennsylvania, New Jersey and Delaware on Thursday, bringing damaging wind, heavy rain and major coastal flooding. The storm forced the cancellation of Philadelphia’s Thanksgiving Day parade, produced record tidal flooding in parts of the shore region and left tens of thousands without electricity around the region.",
+      "The storm also disrupted transportation. High winds damaged construction equipment on the Commodore Barry Bridge, prompting a closure expected to last into Saturday. Earlier forecasts had warned of gusts as high as 75 mph near the coast and 55 to 65 mph inland, conditions that also contributed to flight delays and widespread local travel problems during the holiday.",
+      "New Jersey went into Thanksgiving under a state emergency declaration ahead of the coastal storm, and the impacts Thursday validated those warnings as flooding hit shore communities and damaging winds spread inland. Atlantic City, Cape May and parts of the Delaware Bay were among the areas facing major to near-historic flooding concerns before landfall."
+    ],
+    "source": "WHYY",
+    "url": "https://whyy.org/articles/thanksgiving-philly-region-noreaster-coastal-flooding-damaging-winds-power-outages/",
+    "published": "2026-11-26",
+    "update_note": "UPDATE",
+    "new_development": "The storm’s actual impacts became clear on Nov. 26: Philadelphia canceled its parade, coastal flooding intensified, power outages spread and the Commodore Barry Bridge was closed after wind damage to construction equipment.",
+    "merged_keys": [
+      "thanksgiving-noreaster-philly-south-jersey-2026-11-26",
+      "philadelphia-thanksgiving-parade-canceled-2026-11-26",
+      "new-jersey-storm-emergency-2026-11-25",
+      "commodore-barry-bridge-closure-storm-2026-11-26"
+    ],
+    "additional_sources": [
+      {
+        "source": "The Philadelphia Inquirer",
+        "url": "https://www.inquirer.com/news/philadelphia-thanksgiving-parade-2026-noreaster-20261126.html",
+        "published": "2026-11-26"
+      },
+      {
+        "source": "WHYY",
+        "url": "https://whyy.org/articles/thanksgiving-storm-philadelphia-new-jersey-rain-wind/",
+        "published": "2026-11-26"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "name": "Politics",
+      "stories": [
+        {
+          "key": "trump-gdp-fake-investigation-comments-2026-11-26",
+          "category": "Politics",
+          "title": "Trump attacks revised GDP figures and demands a Commerce Department investigation",
+          "deck": "The president called pre-election growth numbers “fake” after a government revision, renewing pressure on a statistical process that is normally revised on a fixed schedule.",
+          "paragraphs": [
+            "President Donald Trump said Thursday that newly revised economic figures showed the pre-election GDP numbers had been “fake” and demanded an investigation of the Commerce Department. The revisions followed the government’s normal scheduled process, which routinely updates earlier estimates as more complete data becomes available.",
+            "The dispute puts fresh political attention on economic data at a moment when inflation, consumer sentiment and holiday spending are under close watch. Trump has argued that stronger growth validates his economic agenda, while critics say his attack on official statistics risks undercutting confidence in routine federal measurements."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/4fd800b44005ae11f950f96ff62f876e",
+          "published": "2026-11-26",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "trump-gdp-fake-investigation-comments-2026-11-26"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "World",
+      "stories": [
+        {
+          "key": "zelensky-us-pressure-putin-comments-2026-11-27",
+          "category": "World",
+          "title": "Zelensky urges more U.S. pressure on Putin after new remarks from Washington",
+          "deck": "The Ukrainian president publicly criticized softer language about the Russian leader as Kyiv faces another winter of heavy aerial attacks.",
+          "paragraphs": [
+            "Ukrainian President Volodymyr Zelenskyy said in comments broadcast Friday that the United States should increase pressure on Vladimir Putin, and called it “strange” to hear the Russian leader described in friendly terms by figures linked to Washington’s peace efforts. The remarks reflected widening tension between Kyiv and Washington over the conduct of diplomacy and continued support for Ukraine.",
+            "The comments came as Russia’s air campaign continued at high intensity in November and as questions grew about Europe’s longer-term financial role. Zelenskyy’s intervention sharpened the contrast between Ukraine’s demand for tougher pressure and the more conciliatory language used by some U.S. intermediaries."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/d891149b4cbd6521b83096a32bd5e53d",
+          "published": "2026-11-27",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "zelensky-us-pressure-putin-comments-2026-11-27"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "argentina-central-bank-money-printing-ban-2026-11-26",
+          "category": "Economy",
+          "title": "Argentina bars central bank from printing money for the government",
+          "deck": "President Javier Milei’s latest economic overhaul targets a practice long associated with inflation and fiscal instability.",
+          "paragraphs": [
+            "Argentina has formally barred its central bank from financing government spending by printing money, a significant policy change in a country where monetary expansion has repeatedly fed inflation crises. The measure also strips out employment and development goals that had been added under previous Peronist governments.",
+            "The move deepens Milei’s market-oriented restructuring as the economy remains under strain. Official data cited by AP showed Argentina’s economy contracted in the second and third quarters, underscoring the political risk around reforms that supporters say are necessary and opponents say are worsening hardship."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/e4598186ef6cbcf05ecc598788c52cec",
+          "published": "2026-11-26",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "argentina-central-bank-money-printing-ban-2026-11-26"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "spain-election-main-issues-2026-11-26",
+          "category": "World",
+          "title": "Spain heads into an election shaped by housing, migration and energy",
+          "deck": "An early national vote has become a test of affordability politics in one of Europe’s largest economies.",
+          "paragraphs": [
+            "Spain’s election campaign has centered on housing costs, migration and the country’s energy model, with consequences that extend beyond Madrid into broader European politics. Prime Minister Pedro Sánchez called the early election while trying to frame the race around affordability, an issue that has become politically volatile across the continent.",
+            "Spain also enters the vote with a relatively strong renewable-energy profile compared with many European peers. That has helped make the election a useful barometer for how cost-of-living pressures interact with migration and climate policy in a major eurozone country."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/2b239780b9c5852829805efbd8925d43",
+          "published": "2026-11-26",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "spain-election-main-issues-2026-11-26"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Transit",
+      "stories": [
+        {
+          "key": "septa-subway-real-time-displays-context-2026-11-27",
+          "category": "Transit",
+          "title": "SEPTA’s real-time information push expands on the street while subway modernization is still being scoped",
+          "deck": "Agency materials show new rider-facing displays in pilot locations and a separate request for information on heavy-rail real-time systems.",
+          "paragraphs": [
+            "SEPTA has been rolling out pilot ePaper arrival displays at selected bus, trolley and station locations, including Stadium Station and several high-transfer stops, as part of a broader effort to improve rider information. Agency materials say the devices provide arrival predictions, alerts and accessibility features including text-to-speech.",
+            "At the same time, SEPTA has sought industry proposals for modernizing real-time passenger information on the Market-Frankford and Broad Street lines. That means surface-level rider information is moving first while the heavier subway-system upgrade remains in the planning stage."
+          ],
+          "source": "SEPTA",
+          "url": "https://septa.org/initiatives/better-bus/epaper/",
+          "published": "",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "septa-subway-real-time-displays-context-2026-11-27"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Retail",
+      "stories": [
+        {
+          "key": "black-friday-2026-retail-ai-shopping-2026-11-27",
+          "category": "Retail",
+          "title": "Black Friday opens with early discounts, household basics and AI-guided shopping",
+          "deck": "Retailers entered the day after weeks of promotions, while analysts tracked a larger role for artificial-intelligence tools in online browsing and buying.",
+          "paragraphs": [
+            "Black Friday 2026 arrived after a month of promotions that blurred the old one-day shopping model. U.S. consumers spent $82.5 billion online from Nov. 1 through Nov. 22, up 9.1% from the same period a year earlier, while stores still expected strong in-person traffic on Friday itself.",
+            "Retail analysts said shoppers are mixing gift buying with purchases of discounted essentials such as toiletries and clothing. Adobe and Salesforce data also pointed to a bigger role for AI-powered tools in steering shoppers to products and deals."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/21e10113de5d5941024b3220bec29433",
+          "published": "2026-11-27",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "black-friday-2026-retail-ai-shopping-2026-11-27"
+          ],
+          "additional_sources": []
+        },
+        {
+          "key": "consumer-confidence-jumps-november-2026-11-24",
+          "category": "Economy",
+          "title": "U.S. consumer confidence rises sharply heading into holiday shopping",
+          "deck": "Lower gas prices and the end of election uncertainty helped lift sentiment despite continued inflation pressure.",
+          "paragraphs": [
+            "Americans’ confidence in the economy jumped in November, according to the Conference Board survey reported by AP, a potentially important signal as retailers head into the core holiday shopping stretch. Falling gasoline prices and the end of election uncertainty were major factors behind the improvement.",
+            "The stronger reading does not erase inflation pressures, but it gives retailers a more favorable backdrop than many had feared after a volatile year in consumer spending."
+          ],
+          "source": "Associated Press",
+          "url": "https://apnews.com/article/9d13d96cc3e4bac8f334f9145c718e42",
+          "published": "2026-11-24",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "consumer-confidence-jumps-november-2026-11-24"
+          ],
+          "additional_sources": []
+        }
+      ]
+    },
+    {
+      "name": "Technology",
+      "stories": [
+        {
+          "key": "openai-chatgpt-for-sales-2026-11-17",
+          "category": "Technology",
+          "title": "OpenAI highlights sales software and chip-design research in latest product and research posts",
+          "deck": "The company’s recent releases extend beyond flagship models into specialized workplace tools and hardware engineering.",
+          "paragraphs": [
+            "OpenAI’s official product-release page lists “ChatGPT for Sales,” published Nov. 17, as one of the company’s recent launches. The release indicates that OpenAI’s current product push is extending beyond flagship model announcements into more specialized workplace tools.",
+            "OpenAI’s research news page also includes a report describing how its models were used to optimize circuits in Jalapeño silicon and improve RISC-V core designs. The company presents the work as evidence that its latest models can assist with hardware engineering tasks as well as coding and language work."
+          ],
+          "source": "OpenAI",
+          "url": "https://openai.com/news/product-releases/",
+          "published": "2026-11-17",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "openai-chatgpt-for-sales-2026-11-17",
+            "openai-chip-design-research-2026-11-27"
+          ],
+          "additional_sources": [
+            {
+              "source": "OpenAI",
+              "url": "https://openai.com/news/research/",
+              "published": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "stories": [
+        {
+          "key": "nasa-cygnus-launch-preview-2026-11-24",
+          "category": "Space",
+          "title": "NASA previews another cargo launch to the International Space Station for Sunday",
+          "deck": "A Cygnus resupply mission is set to carry science investigations, supplies and equipment to the orbital laboratory.",
+          "paragraphs": [
+            "NASA said media events were being prepared for a Sunday, Nov. 29, cargo launch to the International Space Station, with a Northrop Grumman Cygnus spacecraft scheduled to fly on a SpaceX Falcon 9. The agency said the mission will deliver science investigations, supplies and equipment to the station.",
+            "The launch would continue a busy stretch of station logistics after a Dragon cargo return earlier this month. NASA also said Nov. 17 that its NICER telescope had ended science operations after more than six years of observing the universe from the International Space Station. The instrument had been used for studies of neutron stars, black holes and other high-energy astrophysical targets."
+          ],
+          "source": "NASA",
+          "url": "https://www.nasa.gov/2026-news-releases/",
+          "published": "",
+          "update_note": "",
+          "new_development": "",
+          "merged_keys": [
+            "nasa-cygnus-launch-preview-2026-11-24",
+            "nasa-nicer-ends-science-operations-2026-11-17"
+          ],
+          "additional_sources": [
+            {
+              "source": "NASA",
+              "url": "https://www.nasa.gov/directorates/space-operations/space-operations-news/",
+              "published": "2026-11-17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sports",
+      "stories": [
+        {
+          "key": "eagles-cowboys-thanksgiving-result-2026-11-26",
+          "category": "NFL",
+          "title": "Eagles edge Cowboys 39-38 in Thanksgiving thriller",
+          "deck": "Philadelphia escaped Dallas with a one-point win in the teams’ holiday rivalry game.",
+          "paragraphs": [
+            "The Eagles beat the Cowboys 39-38 on Thursday at AT&T Stadium, according to NFL schedule and game-center materials. The result gave Philadelphia a dramatic road win on Thanksgiving after the teams had already split earlier meetings this season.",
+            "NFL.com’s game-center coverage described quarterback Joe Milton III as the rallying figure in the comeback. The victory follows Philadelphia’s 19-16 win over Pittsburgh last weekend and gives the Eagles consecutive wins after the six-game slide that defined much of early November."
+          ],
+          "source": "NFL.com",
+          "url": "https://www.nfl.com/schedules/2026/by-team/philadelphia-eagles",
+          "published": "2026-11-26",
+          "update_note": "UPDATE",
+          "new_development": "The new development was the final result on Nov. 26: Philadelphia beat Dallas 39-38 on Thanksgiving.",
+          "merged_keys": [
+            "eagles-cowboys-thanksgiving-result-2026-11-26"
+          ],
+          "additional_sources": []
+        }
+      ]
+    }
+  ],
+  "long_reads": []
+}
